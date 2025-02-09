@@ -13,17 +13,66 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Swiss Jekyll Theme
-description: A bold typographic theme inspired by Swiss design.
+title: Hi, I'm Jaume Barber!
+description: DevOps Engineer and Software Developer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_repo: jekyll # the GitHub repo name for your project
-github_username: jekyll
+url: https://jaumebarber.github.io
+ # the base hostname & protocol for your site, e.g. http://example.com
+github_repo: jaumebarber.github.io # the GitHub repo name for your project
+github_username: jaumebarber
 
 # Optional social link, you can choose from the following options:
-# twitter (default), instagram, medium, or dribbble
-social_link: twitter
-social_username: jekyllrb
+# linkedin (default), x (twitter), instagram, medium, or dribbble
+user_name: Jaume Barber
+user_email: jbarber@hipervincle.com
+linkedin_username: jaumebarber
+medium_username: jaumebarber
+bluesky_username: jaumebarber.bsky.social
+
+stack_items:
+  - name: Docker
+    level: 9
+  - name: Kubernetes
+    level: 7
+  - name: OpenShift
+    level: 7
+  - name: Terraform
+    level: 9
+  - name: Ansible
+    level: 7
+  - name: AWS
+    level: 7
+  - name: Linux
+    level: 9
+  - name: SQL
+    level: 6
+  - name: MongoDB
+    level: 6
+  - name: JS/TS
+    level: 8
+  - name: React
+    level: 8
+  - name: Angular
+    level: 8
+  - name: Bash
+    level: 6
+  - name: Python
+    level: 6
+  - name: Go
+    level: 6
+  - name: HTML & CSS
+    level: 9
+
+user_languages:
+  - name: English
+    level: 12
+  - name: Italian
+    level: 12
+  - name: French
+    level: 7
+  - name: German
+    level: 6
+
 
 # Set theme color here
 # Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
@@ -31,3 +80,7 @@ theme_color: black
 
 # Build settings
 markdown: kramdown
+
+# Remote settings
+repository: broccolini/swiss
+livereload: true

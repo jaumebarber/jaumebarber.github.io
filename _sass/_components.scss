@@ -19,10 +19,12 @@ code {
 .prose {
 
   a {
-    text-decoration: underline dotted;
+    text-decoration: underline;
 
     &:hover {
       text-decoration: underline;
+      text-decoration-color: $color-primary-link;
+      text-decoration-thickness: 3px;
     }
   }
 
@@ -135,5 +137,4 @@ code {
       border-bottom: 2px solid $color-body-text;
     }
   }
-
 }

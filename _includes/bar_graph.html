@@ -1,0 +1,10 @@
+<h1>{{ title }}</h1>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="600">
+  {% assign y_pos = 15 %}
+  {% for item in array %}
+    <text x="0" y={{ y_pos }} fill="#181818">{{ item.name }}</text>
+    <rect x="0" width="300" height="5" y={{ y_pos | plus: 8 }} fill="#e8edf5" rx="3" ry="3"/>
+    <rect x="0" width={{300 | divided_by: 12 | times: item.level }} height="5" y={{ y_pos | plus: 8 }} class="text-accent" rx="3" ry="3"/>
+    {% assign y_pos = y_pos | plus: 40 %}
+  {% endfor %}
+</svg>
