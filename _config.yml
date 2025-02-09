@@ -16,7 +16,7 @@
 title: Hi, I'm Jaume Barber!
 description: DevOps Engineer and Software Developer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://jaumebarber.github.io
+url: https://jaumebarber.com
  # the base hostname & protocol for your site, e.g. http://example.com
 github_repo: jaumebarber.github.io # the GitHub repo name for your project
 github_username: jaumebarber
