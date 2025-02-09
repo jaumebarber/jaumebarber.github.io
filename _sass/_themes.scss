@@ -1,0 +1,37 @@
+// Theme definition mixin
+$black: #181818;
+$red: #E74727;
+$red-dark: #DC3918;
+$white: #fff;
+$snow: #f5f5f5;
+
+$blue: #009DDB;
+$blue-dark: #007AB3;
+$gray: #45474A;
+$magenta: #CD2DA8;
+$smoke: #2F2323;
+$gray-light: #777;
+$gray-lighter: #bbb;
+
+
+
+@mixin define-theme($name, $background, $foreground, $text, $accent, $code) {
+  .theme-#{$name} {
+    --icon-fill: #{$foreground};
+    --icon-fill-hover:#{$foreground};
+    --color-foreground: #{$foreground};
+    --color-background: #{$background};
+    --color-dot-accent: #{$accent};
+    --color-text-accent: #{$accent};
+    --color-primary-link: #{$accent};
+    --color-nav-link: #{$accent};
+    --color-code: #{$code};
+    --color-title: #{$text};
+    --color-body-text: #{$text};
+  }
+}
+
+// Define all themes
+@include define-theme('black', $black, $white, $white, $red-dark, $red);
+@include define-theme('light', $snow, $black, $black, $red-dark, $red);
+
