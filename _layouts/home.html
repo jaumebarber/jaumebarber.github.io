@@ -4,18 +4,19 @@
   {% include head.html %}
 
   <body>
-    <div class="site-wrapper">
+    <div class="site-wrapper front-cover">
       <div class="site-content">
-        <header class="header-background">
+        <header class="header-background px-2">
           <div class="clearfix header-sticky">
             <ul class="list-reset right py-1 header-text font-smoothing">
               {% for my_page in site.pages %}
                 {% if my_page.title %}
                 <li class="inline-block">
-                  <a class="align-middle link-primary header-link mr-2" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                  <a class="align-middle link-primary header-link mr-2 mr-lg-0 ml-lg-2" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
                 </li>
                 {% endif %}
               {% endfor %}
+              {% include theme-toggle.html %}
             </ul>
           </div>
           <div class="container mx-auto px-2 mb-2 clearfix header-text">
@@ -77,8 +78,13 @@
           </div>
         </header>
       </div>
-      {% include footer.html %}
+      <div class="container mx-auto px-2 py-4">
+        {% for post in site.posts limit: 3 %}
+          {% include post_block.html %}
+        {% endfor %}
+      </div>
+        {% assign inverted = "inverted" %}
+        {% include footer.html inverted=inverted %}
     </div>
   </body>
-
 </html>
