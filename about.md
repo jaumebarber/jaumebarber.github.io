@@ -1,8 +1,10 @@
 ---
 headline: salutes you!
 title: About
+lang: en
 layout: about
-permalink: "/about/"
+page_id: about
+permalink: /about/
 ---
 
 I'm a full stack software engineer based in beautiful and sunny València. I made a career turn some years ago and learnt to program in React but soon enough I found myself digging deeper. These days I pretty much enjoy Python, Go, TypeScript... you name it. I am also familiar with Java's <del>verbosity</del> performance and usefulness. 
@@ -12,7 +14,7 @@ Big DevOps fan, I enjoy working with containers, Terraform -- or IaC more precis
 # I'm now working as a
 *July, 2024 -- This very morning*\\
 **DevOps Engineer at [Alten](https://www.alten.es)**\\
-which entails development and maintenance of a datalake platform built upon AWS Glue, Lambdas, CloudFormation, and so on and so forth, big castle really, trust me ;). My job there includes full stack development, mostly in Python and Angular, client service and product optimisation.
+which entails development and maintenance of a datalake platform built upon AWS Glue, Lambdas, CloudFormation, and so on and so forth, big castle really, trust me ;). My job there includes full stack development, mostly in Python and Angular, client support and product optimisation.
 
 # Before that, I was
 *June, 2021 -- January, 2023*\\
@@ -26,7 +28,7 @@ as a junior, but I made my very best with Angular, then React, then eventually s
 # My education includes
 *November, 2018 -- June, 2019*\\
 **attending Run '18 at [Devscola](https://devscola.org)**\\
-a Full Stack 6-month bootcamp designed collectively by a community of active devs with a special focus on best practices. We covered TDD, XP, SOLID principles, and all agile stuff, both theoretically and in practice. We built project [Rekaizen](https://devscola.gitlab.io/rekaizen/app) and had fun while doing so.
+a full stack 6-month bootcamp designed collectively by a community of active devs with a special focus on best practices. We covered TDD, XP, SOLID principles, and all agile stuff, both theoretically and in practice. We built project [Rekaizen](https://devscola.gitlab.io/rekaizen/app) and had fun while doing so.
 
 *October, 2014*\\
 **getting a Certificato di Lingua Italiana (C1)**, Università di Perugia

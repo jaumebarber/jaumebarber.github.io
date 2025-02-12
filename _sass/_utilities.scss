@@ -2,6 +2,10 @@
 @import "variables";
 @import "https://unpkg.com/open-props/easings.min.css";
 
+$breakpoint-lg: 1440px; 
+$breakpoint-md: 1080px; 
+$breakpoint-sm: 768px; 
+$breakpoint-xs: 480px; 
 
 .h0 {
   font-size: var(--h0-mobile);
@@ -9,7 +13,7 @@
   margin-top: 0.85em;
   word-wrap: break-word;
 
-  @media (min-width: #{$breakpoint-lg}) {
+  @media (min-width: #{$breakpoint-md}) {
     font-size: var(--h0-desktop);
   }
 }
@@ -81,7 +85,7 @@
 .col-11 { width: calc((11 / 12 * 100%)); }
 .col-12 { width: 100%; }
 
-@media (max-width: #{$breakpoint-md}) {
+@media (max-width: #{$breakpoint-sm}) {
   .sm-width-full { width: 100% !important; }
 }
 
