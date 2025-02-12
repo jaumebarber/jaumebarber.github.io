@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign lang = site.active_lang %}
 <article class="container mx-auto px-2 mt2 mb4">
   <header>
     <h1 class="h0 py-4 mt-3">{{ page.headline }}</h1>
@@ -12,12 +13,7 @@ layout: default
       {{ content }}
     </div>
     <div class="graphs">
-      {% assign title = "The stack I use" %}
-      {% assign array = site.stack_items %}
-      {% include bar_graph.html title=title array=array %}
-      {% assign title = "And I can speak" %}
-      {% assign array = site.user_languages %}
-      {% include bar_graph.html title=title array=array %}
+      {% include bar_graph.html %}
     </div>
   </div>
 </article>

@@ -3,6 +3,8 @@ gemspec
 group :jekyll_plugins do
   gem "jekyll-admin"
   gem "jekyll-octicons"
+  gem "jekyll-polyglot"
+  gem "jekyll-redirect-from"
   gem "github-pages", "~> 232"
   gem "faraday-retry"
   gem "ostruct"

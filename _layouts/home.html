@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html>
-
+  {% assign lang = site.active_lang %}
   {% include head.html %}
-
   <body>
     <div class="site-wrapper front-cover">
       <div class="site-content">
         <header class="header-background px-2">
-          <div class="clearfix header-sticky">
+          <nav class="clearfix header-sticky">
             <ul class="list-reset right py-1 header-text font-smoothing">
-              {% for my_page in site.pages %}
-                {% if my_page.title %}
+              {% for page in site.pages %}
+                {% if page.title and page.lang == lang %}
                 <li class="inline-block">
-                  <a class="align-middle link-primary header-link mr-2 mr-lg-0 ml-lg-2" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                  <a class="align-middle link-primary header-link mr-2 mr-lg-0 ml-lg-2" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                 </li>
                 {% endif %}
               {% endfor %}
               {% include theme-toggle.html %}
             </ul>
-          </div>
+          </nav>
           <div class="container mx-auto px-2 mb-2 clearfix header-text">
-            <h1 class="h0 inline-block col-9 sm-width-full py-4 mt-3 header-title">{{ site.title }}</h1>
+            <h1 class="h0 inline-block col-9 sm-width-full py-4 mt-3 header-title">{{ site.title[lang] }}</h1>
 
             <div class="clearfix mb-4 py-1">
               <div class="col-4 sm-width-full left border-top-thin">
@@ -36,7 +35,7 @@
                   </div>
                 </div>
                 <!-- Set site description in config.yml -->
-                <p class="h4 lh-condensed font-smoothing mt-2 py-1">{{ site.description }}</p>
+                <p class="h4 lh-condensed font-smoothing mt-2 py-1">{{ site.description[lang] }}</p>
               </div>
 
               <div class="col-4 sm-width-full left border-top-thin mt-3 mt-lg-0 ml-lg-4 table">
@@ -78,13 +77,15 @@
           </div>
         </header>
       </div>
-      <div class="container mx-auto px-2 py-4">
-        {% for post in site.posts limit: 3 %}
-          {% include post_block.html %}
-        {% endfor %}
-      </div>
-        {% assign inverted = "inverted" %}
-        {% include footer.html inverted=inverted %}
+      {% if site.posts != empty %}
+        <div class="container mx-auto px-2 py-4">
+          {% for post in site.posts limit: 3 %}
+            {% include post_block.html %}
+          {% endfor %}
+        </div>
+      {% endif %}
+      {% assign inverted = "inverted" %}
+      {% include footer.html inverted=inverted %}
     </div>
   </body>
 </html>

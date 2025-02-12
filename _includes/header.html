@@ -1,21 +1,22 @@
+{% assign lang = site.active_lang %}
 <header class="px-2 clearfix header-sticky">
   <div class="left py-1 mt-1 mt-lg-0">
     <a class="link-primary text-accent" href="{{ site.baseurl }}/">
-      Hi, {{ site.user_name }}
+      {{ site.greet[lang] }}, {{ site.user_name }}
     </a>
   </div>
-  <div class="right py-1 mt-1 mt-lg-0">
+  <nav class="right py-1 mt-1 mt-lg-0">
     <ul class="list-reset mt-lg-1 mb-2 mb-lg-1">
-      {% for my_page in site.pages %}
-        {% if my_page.title %}
+      {% for page in site.pages %}
+        {% if page.title and page.lang == lang %}
         <li class="inline-block">
-          <a class="link-primary mr-2 mr-lg-0 ml-lg-2" href="{{ my_page.url | prepend: site.baseurl }}">
-            {{ my_page.title }}
+          <a class="link-primary mr-2 mr-lg-0 ml-lg-2" href="{{ page.url | prepend: site.baseurl }}">
+            {{ page.title }}
           </a>
         </li>
         {% endif %}
       {% endfor %}
       {% include theme-toggle.html class="inline-block align-top ml-2" %}
     </ul>
-  </div>
+  </nav>
 </header>
