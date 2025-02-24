@@ -63,12 +63,14 @@ body {
  a {
    text-decoration: underline;
    color: inherit;
+  
+   &:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-text-accent);
+    text-decoration-thickness: 3px;
+  }
  }
  
- a:hover {
-   text-decoration: underline;
-   text-decoration-color: var(--color-text-accent);
-   text-decoration-thickness: 3px;
- }
+
  
  
