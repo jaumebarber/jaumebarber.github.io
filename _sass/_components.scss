@@ -16,17 +16,29 @@ code {
 }
 
 .prose {
-
   a {
-    text-decoration: underline;
-
+    color: inherit;
+    text-decoration: none !important;
+    background:
+      linear-gradient(
+        to right,
+        var(--color-body-text),
+        var(--color-body-text)
+      ),
+      linear-gradient(
+        to right,
+        var(--color-text-accent),
+        var(--color-text-accent)
+    );
+    background-size: 100% 2px, 0 2px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
     &:hover {
-      text-decoration: underline;
-      text-decoration-thickness:3px;
-      text-decoration-color: var(--color-text-accent);
+      background-size: 0 2px, 100% 2px;
     }
   }
-
+ 
   p, ol, ul {
     font-size: var(--prose-font-size);
     margin-bottom: 1em;
