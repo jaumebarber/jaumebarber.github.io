@@ -1,14 +1,14 @@
 {% assign lang = site.active_lang %}
-<header class="px-2 clearfix header-sticky">
+<header class="px-2 header-sticky flex navigation">
   <div class="left py-1 mt-1 mt-lg-0">
     <a class="link-primary text-accent" href="{{ site.baseurl }}/">
-      {{ site.greet[lang] }}, {{ site.user_name }}
+      {{ site.data[lang].greet }}, {{ site.user_name }}
     </a>
   </div>
   <nav class="right py-1 mt-1 mt-lg-0">
     <ul class="list-reset mt-lg-1 mb-2 mb-lg-1">
       {% for page in site.pages %}
-        {% if page.title and page.lang == lang %}
+        {% if page.title and page.permalink != "/404" and site.active_lang == lang %}
         <li class="inline-block">
           <a class="link-primary mr-2 mr-lg-0 ml-lg-2" href="{{ page.url | prepend: site.baseurl }}">
             {{ page.title }}
@@ -16,7 +16,9 @@
         </li>
         {% endif %}
       {% endfor %}
-      {% include theme-toggle.html class="inline-block align-top ml-2" %}
+      <li class="inline-block">
+        {% include theme-toggle.liquid class="inline-block align-top ml-2" %}
+      </li>
     </ul>
   </nav>
 </header>

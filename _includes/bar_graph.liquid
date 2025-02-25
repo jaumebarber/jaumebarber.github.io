@@ -1,0 +1,25 @@
+{% assign lang = site.active_lang %}
+<div class="block">
+  <h1>{{ site.data[lang].stack.title }}</h1>
+  <svg xmlns="http://www.w3.org/2000/svg" width="300" height="600">
+    {% assign y_pos = 15 %}
+    {% for item in site.data.common.stack.items %}
+      <text x="0" y="{{ y_pos }}" class="text-color">{{ item.name }}</text>
+      <rect x="0" width="300" height="5" y="{{ y_pos | plus: 8 }}" fill="#bbb" rx="3" ry="3"/>
+      <rect x="0" width="{{300 | divided_by: 12 | times: item.level }}" height="5" y="{{ y_pos | plus: 8 }}" class="text-accent" rx="3" ry="3"/>
+      {% assign y_pos = y_pos | plus: 40 %}
+    {% endfor %}
+  </svg>
+</div>
+<div class="block">
+  <h1>{{ site.data[lang].langs_graph.title }}</h1>
+  <svg xmlns="http://www.w3.org/2000/svg" width="300" height="600">
+    {% assign y_pos = 15 %}
+    {% for l in site.data[lang].langs_graph.langs %}
+      <text x="0" y="{{ y_pos }}" class="text-color">{{ l.name }}</text>
+      <rect x="0" width="300" height="5" y="{{ y_pos | plus: 8 }}" fill="#bbb" rx="3" ry="3"/>
+      <rect x="0" width="{{300 | divided_by: 12 | times: l.level }}" height="5" y="{{ y_pos | plus: 8 }}" class="text-accent" rx="3" ry="3"/>
+      {% assign y_pos = y_pos | plus: 40 %}
+    {% endfor %}
+  </svg>
+</div>

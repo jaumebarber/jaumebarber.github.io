@@ -1,0 +1,19 @@
+title: ¡Hola, soy Jaume Barber!
+description: Ingeniero DevOps y Desarrollador de Software
+greet: ¡Hola
+stack:
+  title: El stack que uso
+langs_graph:
+  title: Y hablo
+  langs:
+    - name: Inglés
+      level: 12
+    - name: Italiano
+      level: 12
+    - name: Francés
+      level: 7
+    - name: Alemán
+      level: 6
+footer:
+  attribution: Desarrollado sobre el tema <a href="https://github.com/broccolini/swiss" target="_blank">swiss</a> de la gran <a href="https://github.com/broccolini" target="_blank">broccolini</a>.
+  bluesky: Comparte en

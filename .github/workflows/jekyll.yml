@@ -34,17 +34,29 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Ruby
-        # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
-        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+        # https://github.com/ruby/setup-ruby/releases/tag/v1.221.0
+        uses: ruby/setup-ruby@32110d4e311bd8996b2a82bf2a43b714ccc91777
         with:
           ruby-version: '3.4.1' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
+          cache-version: 1 # Increment this number if you need to re-download cached gems
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: bundle exec jekyll build --baseurl "https://jaumebarber.com"
         env:
           JEKYLL_ENV: production
+      - uses: anishathalye/proof-html@v2
+        name: Validate HTML5
+        with:
+          directory: ./_site
+          enforce_https: false
+          check_css: true
+          check_favicon: false
+          disable_external: true
+          tokens: |
+            {"https://github.com": "${{ secrets.GITHUB_TOKEN }}"}
+          swap_urls: |
+            {"^https://jaumebarber.com/": "/"}
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3

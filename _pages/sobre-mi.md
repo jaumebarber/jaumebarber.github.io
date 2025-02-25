@@ -4,7 +4,7 @@ title: Sobre mí
 lang: es
 layout: about
 page_id: about
-permalink: /sobre-mi/
+permalink: sobre-mi
 ---
 
 Soy un ingeniero de software full stack y vivo en València. Hace unos años decidí dar giro profesional (y vital) y aprendí a programar en React, pero pronto empecé a ir más allá. Hoy en día me divierto mucho con Python, Go, Typescript... lo que sea en realidad. También sé de primera mano de la gran <del>verbosidad</del> respuesta y utilidad de Java.
@@ -63,4 +63,4 @@ un viajero en grupo sin grupo con el que viajar\\
 intentando aprender a tocar la guitarra sin éxito\\
 el peor jugador de FIFA que te puedas echar a la cara\\
 leyendo, leyendo, leyendo\\
-my probabablemente con mis amigos <del>de fiesta</del> en una terraza
+muy probabablemente con mis amigos <del>de fiesta</del> en una terraza

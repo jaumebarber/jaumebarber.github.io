@@ -4,8 +4,9 @@ title: Quant a
 lang: ca
 layout: about
 page_id: about
-permalink: /quant-a/
+permalink: quant-a
 ---
+
 Sóc un enginyer de software full stack i visc a València. Fa uns anys vaig decidir de fer un gir vital i vaig aprendre a programar en React, però aviat vaig començar a anar més enllà. A dia d'avui m'ho passe en gran amb Python, Go, TypeScript... bàsicament el que siga. També conec de primera mà la gran <del>verbositat</del> resposta i utilitat de Java. 
 
 M'encanta la cultura DevOps, i gaudisc prou treballant amb contenidors, Terraform --bé, qualsevol IaC en realitat--. Però sobretot em flipa el món fascinant i totpoderós de la criptografia. Comptat i debatut, estime els ordinadors i alguna que altra vegada ells em corresponen.
