@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% assign lang = site.active_lang %}
+<html lang="{{ lang }}">
+  {% include head.liquid %}
+  <body>
+    <div class="site-wrapper">
+      <div class="site-content">
+        {% include header.liquid %}
+        {{ content }}
+      </div>
+      {% include footer.liquid %}
+    </div>
+  </body>
+</html>

@@ -4,7 +4,7 @@ title: About
 lang: en
 layout: about
 page_id: about
-permalink: /about/
+permalink: about
 ---
 
 I'm a full stack software engineer based in beautiful and sunny València. I made a career turn some years ago and learnt to program in React but soon enough I found myself digging deeper. These days I pretty much enjoy Python, Go, TypeScript... you name it. I am also familiar with Java's <del>verbosity</del> performance and usefulness. 

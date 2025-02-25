@@ -3,7 +3,7 @@
 // Code formatting
 pre {
     border-left: var(--spacer-1) solid var(--color-border);
-    margin: var(--spacer-3 0);
+    margin: var(--spacer-3) 0;
     padding-left: 16px;
     width: calc(9 / 12 * 100%); // matches col-9
     overflow-x: auto;
@@ -85,7 +85,7 @@ code {
 
     @media (min-width: #{$breakpoint-lg}){
       padding-left: var(--spacer-3);
-      margin: var(--spacer-4) 0 var(--spacer-4 -40px);
+      margin: var(--spacer-4) 0 var(--spacer-4) -40px;
       max-width: calc(11 / 10 * 100%);
 
       p {
@@ -131,7 +131,7 @@ code {
 
     th,
     td {
-      padding: var(--spacer-2) var(--spacer-3) var(--spacer-2 2px);
+      padding: var(--spacer-2) var(--spacer-3) var(--spacer-2)  2px;
       border-top: 1px solid var(--color-body-text);
       border-bottom: 1px solid var(--color-body-text);
     }

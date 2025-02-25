@@ -4,7 +4,7 @@ title: Chi sono
 lang: it
 layout: about
 page_id: about
-permalink: /chi-sono/
+permalink: chi-sono
 ---
 
 Sono un ingegnere software full stack e vivo a València. Qualche anno fa ho deciso di dare una svolta professionale (e vitale) e ho imparato a programmare in React, ma presto ho iniziato ad andare oltre. Oggi mi diverto molto con Python, Go, Typescript... qualsiasi cosa in realtà. Conosco anche in prima persona la grande <del>verbosità</del> risposta e utilità di Java.

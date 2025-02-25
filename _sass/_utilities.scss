@@ -346,12 +346,7 @@ footer {
   transform: translateX(-7px);
 }
 
-@supports (cx: 1) {
-  [data-theme="dark"] .sun-and-moon > .moon > circle {
-    cx: 17;
-    transform: translateX(0);
-  }
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .sun-and-moon > .sun {
@@ -364,12 +359,6 @@ footer {
 
   .sun-and-moon .moon > circle {
     transition: transform .25s var(--ease-out-5);
-  }
-
-  @supports (cx: 1) {
-    .sun-and-moon .moon > circle {
-      transition: cx .25s var(--ease-out-5);
-    }
   }
 
   [data-theme="dark"] .sun-and-moon > .sun {

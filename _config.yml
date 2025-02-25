@@ -14,108 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 
-  en: Hi, I'm Jaume Barber!
-  ca: Hola, sóc Jaume Barber!
-  es: ¡Hola, soy Jaume Barber!
-  it: Salve, sono Jaume Barber!
-
-description: 
-  en: DevOps Engineer and Software Developer
-  ca: Enginyer DevOps i Desenvolupador de Software
-  es: Ingeniero DevOps y Desarrollador de Software
-  it: Ingegnere DevOps e Sviluppatore Software
-
-greet:
-  en: Hi
-  ca: Hola
-  es: ¡Hola
-  it: Salve
-
-stack:
-  title:
-      en: The stack I use
-      ca: L'stack que utilitze
-      es: El stack que utilizo
-      it: Lo stack che uso
-  items:
-    - name: Docker
-      level: 9
-    - name: Kubernetes
-      level: 7
-    - name: OpenShift
-      level: 7
-    - name: Terraform
-      level: 9
-    - name: Ansible
-      level: 7
-    - name: AWS
-      level: 7
-    - name: Linux
-      level: 9
-    - name: SQL
-      level: 6
-    - name: MongoDB
-      level: 6
-    - name: JS/TS
-      level: 8
-    - name: React
-      level: 8
-    - name: Angular
-      level: 8
-    - name: Bash
-      level: 6
-    - name: Python
-      level: 6
-    - name: Go
-      level: 6
-    - name: HTML & CSS
-      level: 9
-
-user_languages:
-  title:
-    en: And I can speak
-    ca: I parle
-    es: Y hablo
-    it: E parlo
-  items:
-    - name: 
-        en: English
-        ca: Anglès
-        es: Inglés
-        it: Inglese
-      level: 12
-    - name: 
-        en: Italian
-        ca: Italià
-        es: Italiano
-        it: Italiano
-      level: 12
-    - name: 
-        en: French
-        ca: Francés
-        es: Francés
-        it: Francese
-      level: 7
-    - name: 
-        en: German
-        ca: Alemany
-        es: Alemán
-        it: Tedesco
-      level: 6
-
-footer:
-  attribution:
-    en: Based on lovely <a href="https://github.com/broccolini" target="_blank">broccolini</a>'s <a href="https://github.com/broccolini/swiss" target="_blank">swiss theme</a>.
-    ca: Desenvolupat sobre el tema <a href="https://github.com/broccolini/swiss" target="_blank">swiss</a> de la gran <a href="https://github.com/broccolini" target="_blank">broccolini</a>.
-    es: Desarrollado sobre el tema <a href="https://github.com/broccolini/swiss" target="_blank">swiss</a> de la gran <a href="https://github.com/broccolini" target="_blank">broccolini</a>.
-    it: Sviluppato sul tema <a href="https://github.com/broccolini/swiss" target="_blank">swiss</a> della grande <a href="https://github.com/broccolini" target="_blank">broccolini</a>.
-  bluesky:
-    en: Post on
-    ca: Publica a
-    es: Publica en
-    it: Pubblica su
-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://jaumebarber.com
  # the base hostname & protocol for your site, e.g. http://example.com
@@ -129,18 +27,10 @@ user_email: jbarber@hipervincle.com
 linkedin_username: jaumebarber
 bluesky_username: jaumebarber.bsky.social
 
-
-
 languages: ["en", "ca", "es", "it"]
 default_lang: "en"
-exclude_from_localization: ["javascript", "images", "css", "public", "sitemap", "assets"]
+exclude_from_localization: ["javascript", "images", "css", "public", "sitemap", "assets" ]
 parallel_localization: false
-
-
-
-# Set theme color here
-# Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
-theme_color: black
 
 # Build settings
 markdown: kramdown
@@ -148,3 +38,9 @@ markdown: kramdown
 # Remote settings
 repository: broccolini/swiss
 livereload: true
+
+include: ["_pages"]
+
+plugins:
+  - jekyll-polyglot
+  - jekyll-octicons
