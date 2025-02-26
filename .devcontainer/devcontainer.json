@@ -2,12 +2,12 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/jekyll
 {
   "name": "Jekyll",
-  "image": "mcr.microsoft.com/devcontainers/jekyll",
+  "image": "mcr.microsoft.com/devcontainers/jekyll:dev",
 
   // Features to add to the dev container. More info: https://containers.dev/features.
   "features": {
     "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
-      "packages": "build-essential,imagemagick,inotify-tools,jupyter-nbconvert,procps,ruby-full,zlib1g-dev,pre-commit"
+      "packages": "build-essential,imagemagick,inotify-tools,jupyter-nbconvert,procps,ruby-full,zlib1g-dev"
     },
     "ghcr.io/devcontainers-contrib/features/prettier:1": {}
   },
@@ -26,6 +26,8 @@
       }
     }
   },
-
+  "mounts": [
+    "type=bind,source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/vscode/.ssh,readonly"
+  ],
   "remoteUser": "vscode"
 }
