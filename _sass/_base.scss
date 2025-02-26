@@ -1,10 +1,10 @@
 /**
   * Reset some basic elements
 */
-@import "variables";
-@import "themes";
-@import "utilities";
-@import "components";
+@use "variables";
+@use "themes";
+@use "utilities";
+@use "components";
 
 * {
   box-sizing: border-box !important;
