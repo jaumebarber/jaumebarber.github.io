@@ -15,14 +15,14 @@
 # in the templates via {{ site.myvariable }}.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url:
-  https://jaumebarber.com
-  # the base hostname & protocol for your site, e.g. http://example.com
+url: https://jaumebarber.com # the base hostname & protocol for your site, e.g. http://example.com
 github_repo: jaumebarber.github.io # the GitHub repo name for your project
 github_username: jaumebarber
 
-# Optional social link, you can choose from the following options:
-# linkedin (default), x (twitter), instagram, medium, or dribbble
+# Optional social links, you can choose from the following options:
+# linkedin (default), bluesky, x (twitter), instagram, medium, or dribbble just add 
+# the name of the media + _username e.g. medium_username and then add your user name
+# to make it appear on the page
 user_name: Jaume Barber
 user_email: jbarber@hipervincle.com
 linkedin_username: jaumebarber
@@ -30,7 +30,7 @@ bluesky_username: jaumebarber.bsky.social
 
 languages: ["en", "ca", "es", "it"]
 langsep: ·
-default_lang: "en"
+default_lang: en
 exclude_from_localization: ["javascript", "images", "css", "public", "sitemap", "assets"]
 parallel_localization: false
 
