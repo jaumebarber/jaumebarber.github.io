@@ -6,11 +6,11 @@
     </a>
   </div>
   <nav class="right py-1 mt-1 mt-lg-0">
-    <ul class="list-reset mt-lg-1 mb-2 mb-lg-1">
+    <ul class="list-reset right py-1 header-text font-smoothing mt-lg-1 mb-2 mb-lg-1">
       {% for page in site.pages %}
         {% if page.title and page.permalink != "/404" and site.active_lang == lang %}
         <li class="inline-block">
-          <a class="link-primary mr-2 mr-lg-0 ml-lg-2" href="{{ page.url | prepend: site.baseurl }}">
+          <a class="align-middle link-primary header-link mr-2 mr-lg-0 ml-lg-2" href="{{ page.url | prepend: site.baseurl }}">
             {{ page.title }}
           </a>
         </li>
