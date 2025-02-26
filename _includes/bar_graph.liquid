@@ -1,7 +1,7 @@
 {% assign lang = site.active_lang %}
 <div class="block">
   <h1>{{ site.data[lang].stack.title }}</h1>
-  <svg xmlns="http://www.w3.org/2000/svg" width="300" height="600">
+  <svg xmlns="http://www.w3.org/2000/svg" width="300" height="630">
     {% assign y_pos = 15 %}
     {% for item in site.data.common.stack.items %}
       <text x="0" y="{{ y_pos }}" class="text-color">{{ item.name }}</text>
