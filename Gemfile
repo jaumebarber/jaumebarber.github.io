@@ -13,4 +13,5 @@ gem "jekyll", "~> 4.4.1"
 group :jekyll_plugins do
   gem "jekyll-octicons", "~> 19.8"
   gem "jekyll-polyglot", "~> 1.9"
+  gem "jekyll-redirect-from", "~> 0.16.0"
 end

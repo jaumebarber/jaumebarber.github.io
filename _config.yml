@@ -44,3 +44,7 @@ include: ["_pages"]
 plugins:
   - jekyll-polyglot
   - jekyll-octicons
+  - jekyll-redirect-from
+
+redirect_from:
+  json: false
