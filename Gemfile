@@ -9,9 +9,11 @@ gem "fiddle", "~> 1.1.6"
 gem "bigdecimal"
 gem "logger"
 gem "jekyll", "~> 4.4.1"
+gem "uglifier", "~> 4.2.1"
 
 group :jekyll_plugins do
   gem "jekyll-octicons", "~> 19.8"
   gem "jekyll-polyglot", "~> 1.9"
   gem "jekyll-redirect-from", "~> 0.16.0"
+  gem "jekyll-minifier", "~> 0.1.10"
 end
