@@ -41,7 +41,7 @@ $gray: #45474A;
 
 // Light themes
 @include define-theme('light', $white, $black, $black, $black, $red-dark, $red);
-@include define-theme('blue', $white, $gray, $blue, $gray, $blue, $blue-dark);
+@include define-theme('blue', $white, $black, $black, $black, $blue, $blue-dark);
 @include define-theme('mint', $white, $black, $black, $black, $mint, $mint-dark);
 @include define-theme('magenta', $white, $black, $black, $black, $magenta, $magenta);
 

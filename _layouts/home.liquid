@@ -86,7 +86,8 @@
           {% endfor %}
         </div>
       {% endif %}
-      {% include footer.liquid %}
+      {% assign inverted = "inverted" %}
+      {% include footer.liquid inverted=inverted %}
     </div>
   </body>
 </html>

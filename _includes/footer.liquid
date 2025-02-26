@@ -1,7 +1,7 @@
 {% assign lang = site.active_lang %}
-<footer class="border-top-thin clearfix mt-2 mt-lg-4">
+<footer class="border-top-thin clearfix mt-2 mt-lg-4 {{ inverted | default: '' }}" >
   <div class="container mx-auto px-2">
-    <p class="col-8 sm-width-full left py-2 mb-0"><a href="https://opensource.org/license/MIT" class="no-underline">©</a> <a class="no-underline" href="https://github.com/{{ site.github_username }}" target="_blank">{{ site.user_name }}</a>, 2025. {{site.data[lang].footer.attribution}}</p>
+    <p class="col-8 sm-width-full left py-2 mb-0"><a href="https://opensource.org/license/MIT" class="no-underline">©</a> <a class="no-underline" href="https://github.com/{{ site.github_username }}" target="_blank">{{ site.user_name }}</a>, 2025. {{ site.data[lang].footer.attribution }}</p>
     <ul class="list-reset right sm-width-full py-2 mb-2 mb-lg-0 flex items-center">
       <li class="mr-1 flex items-center">
         <a class="bluesky flex items-center" href="https://bsky.app/intent/compose?text={{ site.data[lang].title | url_encode }}%20Check%20this%20out%20{{ site.url }}{{ page.url }}">

@@ -1,4 +1,4 @@
-<div class="language-menu inline-flex mb-1"> 
+<div class="language-menu inline-flex"> 
   {% for lang in site.languages %}
     <a {% if lang == site.active_lang %} class="selected" {% endif %} {% static_href %}href="{% if lang == site.default_lang %}{{ site.baseurl }}{{ page.url }}{% else %}{{ site.baseurl }}/{{ lang }}{{ page.url }}{% endif %}"{% endstatic_href %} >{{ lang }}</a>{%- if forloop.last == false -%}{{" "}}{{ site.langsep }}{%- endif -%}
   {% endfor %}
