@@ -1,8 +1,7 @@
 source "https://rubygems.org"
-gemspec
 
 gem "wdm", ">= 0.1.0" if Gem.win_platform?
-gem "bundler", "~> 2.6.2"    
+gem "bundler", "~> 2.6.2"
 gem "faraday-retry", "~> 2.2"
 gem "ostruct", "~> 0.6.1"
 gem "fiddle", "~> 1.1.6"
