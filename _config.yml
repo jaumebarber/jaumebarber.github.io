@@ -28,6 +28,7 @@ linkedin_username: jaumebarber
 bluesky_username: jaumebarber.bsky.social
 
 languages: ["en", "ca", "es", "it"]
+langsep: ·
 default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css", "public", "sitemap", "assets" ]
 parallel_localization: false
@@ -45,8 +46,11 @@ plugins:
   - jekyll-polyglot
   - jekyll-octicons
   - jekyll-redirect-from
+  - jekyll-minifier
 
 redirect_from:
   json: false
 
-langsep: ·
+jekyll-minifier:
+  uglifier_args:
+    harmony: true
