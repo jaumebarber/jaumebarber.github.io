@@ -1,6 +1,6 @@
-<!DOCTYPE html>
+<!doctype html>
 {% assign lang = site.active_lang %}
-<html lang={{ lang }}>
+<html lang="{{ lang }}">
   {% include head.liquid %}
   <body>
     <div class="site-wrapper front-cover">
@@ -9,10 +9,12 @@
           <nav class="clearfix header-sticky py-1 mt-1 mt-lg-0">
             <ul class="list-reset right py-1 header-text font-smoothing mt-lg-1 mb-2 mb-lg-1">
               {% for page in site.pages %}
-                {% if page.title and page.permalink != "/404" and site.active_lang == lang %}
-                <li class="inline-block">
-                  <a class="align-middle link-primary header-link mr-2 mr-lg-0 ml-lg-2" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                </li>
+                {% if page.title and page.permalink != '/404' and site.active_lang == lang %}
+                  <li class="inline-block">
+                    <a class="align-middle link-primary header-link mr-2 mr-lg-0 ml-lg-2" href="{{ page.url | prepend: site.baseurl }}">
+                      {{- page.title -}}
+                    </a>
+                  </li>
                 {% endif %}
               {% endfor %}
               <li class="inline-block">
@@ -70,9 +72,9 @@
                   </div>
                 {% endif %}
                 {% if site.user_email %}
-                <div class="inline-block mt-3 mr-1">
-                  {% include email.liquid %}
-                </div>
+                  <div class="inline-block mt-3 mr-1">
+                    {% include email.liquid %}
+                  </div>
                 {% endif %}
               </div>
             </div>
@@ -86,7 +88,7 @@
           {% endfor %}
         </div>
       {% endif %}
-      {% assign inverted = "inverted" %}
+      {% assign inverted = 'inverted' %}
       {% include footer.liquid inverted=inverted %}
     </div>
   </body>
