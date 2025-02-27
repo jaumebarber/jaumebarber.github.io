@@ -1,0 +1,31 @@
+name: Run Prettier
+
+on:
+  workflow_call:
+
+jobs:
+  prettier:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout ${{ github.repository }} 🧾
+        uses: actions/checkout@v4
+      - name: Install Yarn 🧶
+        uses: Borales/actions-yarn@v5.0.0
+        with:
+          cmd: install
+      - name: Prettier Check 🔎
+        id: prettier
+        run: npx prettier . --check
+      - name: Run Prettier 🦋
+        # https://docs.github.com/en/actions/learn-github-actions/expressions#failure
+        if: ${{ failure() }}
+        run: |
+          npx prettier . --write
+      - name: Commit and push changes ⬆️
+        if: ${{ failure() && steps.prettier.conclusion == 'failure' }}
+        run: |
+          git config user.name "Jaume Barber"
+          git config user.email "jbarber@hipervincle.com"
+          git add -A
+          git commit -m "style: format code with Prettier" || echo "No changes to commit"
+          git push
