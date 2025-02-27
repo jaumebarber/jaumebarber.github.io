@@ -2,6 +2,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/jekyll-swiss.svg)](https://badge.fury.io/rb/jekyll-swiss)
 
+[![Check Links](https://github.com/jaumebarber/jaumebarber.github.io/actions/workflows/link-checker.yml/badge.svg)](https://github.com/jaumebarber/jaumebarber.github.io/actions/workflows/link-checker.yml)
 
 Swiss is a bold Jekyll theme inspired by Swiss design and the works of Massimo Vignelli. This theme lends itself well to sites heavy on written content.
 
@@ -45,8 +46,12 @@ When your theme is released, only the files in `_layouts`, `_includes`, and `_sa
 ### Desktop
 [![Lighthouse Desktop](lighthouse_results/desktop/pagespeed.svg)](lighthouse_results/desktop/pagespeed.svg)
 
+[Desktop report](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jaumebarber/jaumebarber.github.io/refs/heads/master/lighthouse_results/desktop/jaumebarber_com.html)
+
 ### Mobile
 [![Lighthouse Mobile](lighthouse_results/mobile/pagespeed.svg)](lighthouse_results/mobile/pagespeed.svg)
+
+[Mobile report](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jaumebarber/jaumebarber.github.io/refs/heads/master/lighthouse_results/desktop/jaumebarber_com.html)
 
 ## License
 

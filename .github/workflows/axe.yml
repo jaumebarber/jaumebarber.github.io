@@ -1,0 +1,47 @@
+name: Axe accessibility testing
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    # available images: https://github.com/actions/runner-images#available-images
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.4.2"
+          bundler-cache: true
+      - name: Build with Jekyll 🏗️
+          # Outputs to the './_site' directory by default
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+      - name: Install Yarn 🧶
+        uses: Borales/actions-yarn@v5.0.0
+        with:
+          cmd: install
+      - name: Get Chromium version 🌐
+        # https://github.com/GoogleChromeLabs/chrome-for-testing?tab=readme-ov-file#other-api-endpoints
+        run: |
+          CHROMIUM_VERSION=$(wget -qO- https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_STABLE | cut -d. -f1)
+          echo "Chromium version: $CHROMIUM_VERSION"
+          echo "CHROMIUM_VERSION=$CHROMIUM_VERSION" >> $GITHUB_ENV
+      - name: Setup Chrome 🌐
+        id: setup-chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: ${{ env.CHROMIUM_VERSION }}
+      - name: Install chromedriver 🚗
+        run: |
+          yarn add global chromedriver@$CHROMIUM_VERSION
+      - name: Run axe 🪓
+        # https://github.com/dequelabs/axe-core-npm/tree/develop/packages/cli
+        run: |
+          yarn add global @axe-core/cli
+          yarn add global http-server
+          http-server _site/ &
+          axe --chromedriver-path $(npm root -g)/chromedriver/bin/chromedriver http://localhost:8080 --load-delay=1500 --exit
