@@ -42,7 +42,7 @@ repository: broccolini/swiss
 livereload: true
 
 include: ["_pages"]
-exclude: ["lighthouse_results", "package.json", "yarn.lock", "bin", "README.md", "Dockerfile", "compose.yml" ]
+exclude: ["lighthouse_results", "package.json", "yarn.lock", "bin", "README.md", "Dockerfile", "compose.yml"]
 
 plugins:
   - jekyll-polyglot
