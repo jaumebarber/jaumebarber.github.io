@@ -20,7 +20,7 @@ github_repo: jaumebarber.github.io # the GitHub repo name for your project
 github_username: jaumebarber
 
 # Optional social links, you can choose from the following options:
-# linkedin (default), bluesky, x (twitter), instagram, medium, or dribbble just add 
+# linkedin (default), bluesky, x (twitter), instagram, medium, or dribbble just add
 # the name of the media + _username e.g. medium_username and then add your user name
 # to make it appear on the page
 user_name: Jaume Barber
@@ -42,6 +42,7 @@ repository: broccolini/swiss
 livereload: true
 
 include: ["_pages"]
+exclude: ["lighthouse_results", "package.json", "yarn.lock", "bin", "README.md", "Dockerfile", "compose.yml" ]
 
 plugins:
   - jekyll-polyglot

@@ -9,7 +9,7 @@ yarn.lock
 .prettierrc
 .gitignore
 .gitattributes
-.pre-commit-config.yaml
+.lycheeignore
 compose.yml
 Dockerfile
 Gemfile

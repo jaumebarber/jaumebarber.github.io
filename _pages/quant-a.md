@@ -14,7 +14,7 @@ M'encanta la cultura DevOps, i gaudisc prou treballant amb contenidors, Terrafor
 # Ara mateix treballe com a
 
 _Juliol, 2024 -- Avui al matí_\\
-**Enginyer DevOps a [Alten](https://www.alten.es)**, que consisteix a desenvolupar i mantenir una plataforma de llac de dades sobre AWS Glue, Lambdas, CloudFormation, i això i el de més enllà, la veritat és que és un gran castell ;). La meua feina allà implica desenvolupament full stack, sobretot en Python i Angular, suport al client i optimització del producte.
+**Enginyer DevOps a [Alten](https://alten.es)**, que consisteix a desenvolupar i mantenir una plataforma de llac de dades sobre AWS Glue, Lambdas, CloudFormation, i això i el de més enllà, la veritat és que és un gran castell ;). La meua feina allà implica desenvolupament full stack, sobretot en Python i Angular, suport al client i optimització del producte.
 
 # Abans feia de
 
@@ -22,7 +22,7 @@ _Juny, 2021 -- Gener, 2023_\\
 **Lead de Sistemes a [Eventscase](https://eventscase.com)**, on vaig terraformar, o ansibilitzar tots els serveis d'AWS que féiem servir. Abans d'això vaig participar en la contenedorització del producte. I a muntar entorns de desenvolupament i de proves. I després està el manteniment diari i la gestió de la plataforma...
 
 _Juliol, 2019 -- Maig, 2021_\\
-**Desenvolupador de software a [GFT](https://www.gft.com)**, com a junior, però me les vaig a apanyar força bé amb Angular, després React, després poc a poc vaig començar a tirar cap a coses d'operacions (ops): gestió de pipelines, contenidors, scripting, gestió de microserveis Java en desplegats en OpenShift, etc. Temps bons, em van ascendir.
+**Desenvolupador de software a [GFT](https://gft.com)**, com a junior, però me les vaig a apanyar força bé amb Angular, després React, després poc a poc vaig començar a tirar cap a coses d'operacions (ops): gestió de pipelines, contenidors, scripting, gestió de microserveis Java en desplegats en OpenShift, etc. Temps bons, em van ascendir.
 
 # La meua educació inclou
 
