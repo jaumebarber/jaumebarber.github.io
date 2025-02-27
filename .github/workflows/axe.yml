@@ -37,11 +37,11 @@ jobs:
           chrome-version: ${{ env.CHROMIUM_VERSION }}
       - name: Install chromedriver 🚗
         run: |
-          yarn add global chromedriver@$CHROMIUM_VERSION
+          yarn global add chromedriver@$CHROMIUM_VERSION
       - name: Run axe 🪓
         # https://github.com/dequelabs/axe-core-npm/tree/develop/packages/cli
         run: |
-          yarn add global @axe-core/cli
-          yarn add global http-server
+          yarn global add @axe-core/cli --prefix /usr/local
+          yarn global add http-server --prefix /usr/local
           http-server _site/ &
-          axe --chromedriver-path $(npm root -g)/chromedriver/bin/chromedriver http://localhost:8080 --load-delay=1500 --exit
+          axe --chromedriver-path $(yarn global bin)/chromedriver/bin/chromedriver http://localhost:8080 --load-delay=1500 --exit
