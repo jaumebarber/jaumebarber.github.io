@@ -12,16 +12,7 @@ on:
     branches: 
       - master
       - main 
-    paths:
-      - "assets/**"
-      - "**.html"
-      - "**.js"
-      - "**.liquid"
-      - "**/**.md"
-      - "**.yml"
-      - "!vendor/**"
-      - "!.github/workflows/**"
-      - "!lighthouse_results/**"
+
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

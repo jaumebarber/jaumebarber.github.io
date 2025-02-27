@@ -14,7 +14,7 @@ Big DevOps fan, I enjoy working with containers, Terraform -- or IaC more precis
 # I'm now working as a
 
 _July, 2024 -- This very morning_\\
-**DevOps Engineer at [Alten](https://www.alten.es)**, which entails development and maintenance of a datalake platform built upon AWS Glue, Lambdas, CloudFormation, and so on and so forth, big castle really, trust me ;). My job there includes full stack development, mostly in Python and Angular, client support and product optimisation.
+**DevOps Engineer at [Alten](https://alten.es)**, which entails development and maintenance of a datalake platform built upon AWS Glue, Lambdas, CloudFormation, and so on and so forth, big castle really, trust me ;). My job there includes full stack development, mostly in Python and Angular, client support and product optimisation.
 
 # Before that, I was
 
@@ -22,7 +22,7 @@ _June, 2021 -- January, 2023_\\
 **Systems Lead at [Eventscase](https://eventscase.com)**, where I terraformed, or ansibled every AWS service in use. Before that, I contributed to the containerization of the product. And setting up dev and testing envs. And then there's the whole daily maintenance and management...
 
 _July, 2019 -- May, 2021_\\
-**Software Developer at [GFT](https://www.gft.com)**, as a junior, but I made my very best with Angular, then React, then eventually started leaning towards ops stuff: pipeline management, containers, scripting, managing Java microservices in OpenShift. Good ol' times, they promoted me.
+**Software Developer at [GFT](https://gft.com)**, as a junior, but I made my very best with Angular, then React, then eventually started leaning towards ops stuff: pipeline management, containers, scripting, managing Java microservices in OpenShift. Good ol' times, they promoted me.
 
 # My education includes
 
