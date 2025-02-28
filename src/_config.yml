@@ -57,7 +57,6 @@ redirect_from:
 jekyll-minifier:
   uglifier_args:
     harmony: true
-
 # TODO: fix mobile header menu white area view
 # TODO: implement print media query
 # TODO: try whether Dockerfile and compose.yml work
