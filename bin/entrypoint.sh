@@ -21,8 +21,7 @@ manage_gemfile_lock() {
 
 start_jekyll() {
     manage_gemfile_lock
-    yarn
-    bundle exec jekyll serve --port=8080 --verbose --trace --force_polling &
+    bundle exec jekyll serve --force_polling &
 }
 
 start_jekyll
