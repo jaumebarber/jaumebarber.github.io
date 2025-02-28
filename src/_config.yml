@@ -43,7 +43,7 @@ livereload: true
 port: 8080
 
 include: ["_pages"]
-exclude: ["lighthouse_results", "package.json", "yarn.lock", "bin", "README.md", "Dockerfile", "compose.yml"]
+exclude: ["bin", "Dockerfile", "compose.yml"]
 
 plugins:
   - jekyll-polyglot
@@ -57,8 +57,6 @@ redirect_from:
 jekyll-minifier:
   uglifier_args:
     harmony: true
-
-# TODO: change project structure so that jekyll-related parts are contained in a src folder
 # TODO: fix mobile header menu white area view
 # TODO: implement print media query
 # TODO: try whether Dockerfile and compose.yml work
@@ -70,3 +68,4 @@ jekyll-minifier:
 # TODO: add a favicon
 # TODO: add a sitemap.xml
 # TODO: try more plugins
+# TODO: develop a system not to upload artifacts whenever non src code is changed

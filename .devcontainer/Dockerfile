@@ -26,7 +26,7 @@ RUN gem install --no-document jekyll -v 4.4.1
 RUN chown -R vscode:vscode /usr/local/bundle &&  \
     rm -rf /usr/local/rvm/gems/default 
 
-COPY post-create.sh /usr/local/post-create.sh
+COPY bin/post-create.sh /usr/local/post-create.sh
 
 # [Optional] Uncomment this line to install global node packages.
 # RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && npm install -g <your-package-here>" 2>&1

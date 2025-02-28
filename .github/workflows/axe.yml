@@ -14,10 +14,12 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.4.2"
-          bundler-cache: true
+          bundler: 2.6.5
+      - name: Install dependencies 🔧
+        run: cd src && bundle install 
       - name: Build with Jekyll 🏗️
-          # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build
+        # Outputs to the './_site' directory by default
+        run: cd src && bundle exec jekyll build 
         env:
           JEKYLL_ENV: production
       - name: Install Yarn 🧶
@@ -44,5 +46,5 @@ jobs:
         run: |
           yarn global add @axe-core/cli --prefix /usr/local
           yarn global add http-server --prefix /usr/local
-          http-server _site/ &
+          http-server src/_site/ &
           axe --chromedriver-path $(yarn global bin)/chromedriver/bin/chromedriver http://localhost:8080 --load-delay=1500 --exit --tags wcag2a

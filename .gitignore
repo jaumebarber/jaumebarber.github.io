@@ -1,6 +1,7 @@
 node_modules
 .bundle
 .sass-cache
+.ruby-lsp
 _site
 .DS_Store
 Gemfile.lock
