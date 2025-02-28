@@ -16,7 +16,8 @@ name: 'Lighthouse Badger'
 env:
   URLS: https://jaumebarber.com # URL(s) to be checked e.g. 'https://github.com/sitdisch https://github.com/mythemeway'
   TOKEN_NAME: LIGHTHOUSE_BADGER_TOKEN # target token name; insert only the name never the real value e.g. 'LIGHTHOUSE_BADGER_TOKEN'
-  REPO_BRANCH: '${{ github.repository }} master' # repo with this file and main branch
+  REPOSITORY: ${{ github.repository }}
+  BRANCH: master
   BADGES_ARGS: '-b pagespeed -o lighthouse_results -r'
   AUDIT_TYPE: 'both'
   MOBILE_LIGHTHOUSE_PARAMS: '--only-categories=performance,accessibility,best-practices,seo --throttling.cpuSlowdownMultiplier=2'
@@ -41,21 +42,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
-      - name: Preparatory Tasks 🕓
-        run: |
-          REPOSITORY=`expr "${{ env.REPO_BRANCH }}" : "\([^ ]*\)"`
-          BRANCH=`expr "${{ env.REPO_BRANCH }}" : ".* \([^ ]*\)"`
-          echo "REPOSITORY=$REPOSITORY" >> $GITHUB_ENV
-          echo "BRANCH=$BRANCH" >> $GITHUB_ENV
-        env:
-          REPO_BRANCH: ${{ env.REPO_BRANCH }}
-      - name: Checkout ${{ github.repository }} 🧾
+      - name: Checkout ${{ github.repository }} 🛎️
         uses: actions/checkout@v4
         with:
-          repository: ${{ env.REPOSITORY }}
-          token: ${{ secrets[github.event.inputs.token_name] || secrets[env.TOKEN_NAME] }}
+          repository: ${{ env.REPOSITORY || github.repository }}
+          token: ${{ secrets[env.TOKEN_NAME] }} 
           ref: ${{ env.BRANCH }}
-      - name: Checkout myactionway/lighthouse-badges 🧾
+      - name: Checkout myactionway/lighthouse-badges 🛎️
         uses: actions/checkout@v4
         with:
           repository: 'myactionway/lighthouse-badges'
