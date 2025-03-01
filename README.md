@@ -4,6 +4,9 @@
 
 [![Check Links](https://github.com/jaumebarber/jaumebarber.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/jaumebarber/jaumebarber.github.io/actions/workflows/deploy.yml)
 
+[![Check Accessibility](https://github.com/jaumebarber/jaumebarber.github.io/actions/workflows/axe.yml/badge.svg)](https://github.com/jaumebarber/jaumebarber.github.io/actions/workflows/axe.yml)
+
+
 Swiss is a bold Jekyll theme inspired by Swiss design and the works of Massimo Vignelli. This theme lends itself well to sites heavy on written content.
 
 ### Features:
