@@ -11,7 +11,10 @@ on:
   push:
     branches: 
       - master
-      - main 
+      - main
+    paths:
+      - src/**
+      - .github/**/**
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
