@@ -2,17 +2,13 @@
 <html>
 
   {% include head.liquid %}
-
   <body>
-
-    {% include header.liquid %}
-
-    <div>
-      {{ content }}
+    <div class="site-wrapper">
+      <div class="site-content">
+        {% include header.liquid %}
+        {{ content }}
+      </div>
+      {% include footer.liquid %}
     </div>
-
-    {% include footer.liquid %}
-
   </body>
-
 </html>

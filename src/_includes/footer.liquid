@@ -1,13 +1,34 @@
-<div class="border-top-thin clearfix mt-2 mt-lg-4">
+<footer class="border-top-thin clearfix mt-2 mt-lg-4 {{ inverted | default: '' }}">
   <div class="container mx-auto px-2">
-    <p class="col-8 sm-width-full left py-2 mb-0">This project is maintained by <a class="text-accent" href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a></p>
-    <ul class="list-reset right clearfix sm-width-full py-2 mb-2 mb-lg-0">
-      <li class="inline-block mr-1">
-        <a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="{{ site.title }}">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <p class="col-8 sm-width-full left py-2 mb-0">
+      <a href="https://opensource.org/license/MIT" class="no-underline">©</a>
+      <a class="no-underline" href="https://github.com/{{ site.github_username }}" target="_blank">{{ site.user_name }}</a>, 2025.
+      Based on lovely <a href="https://github.com/broccolini" target="_blank">broccolini</a>'s <a href="https://github.com/broccolini/swiss" target="_blank">swiss theme</a>.
+    </p>
+    <ul class="list-reset right sm-width-full py-2 mb-2 mb-lg-0 flex items-center">
+      <li class="mr-1 flex items-center">
+        <a
+          class="bluesky flex items-center"
+          href="https://bsky.app/intent/compose?text={{ site.title | url_encode }}%20Check%20this%20out%20{{ site.url }}{{ page.url }}"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 22">
+            <path fill="#fff" d="M12 10.8c-1.087 -2.114 -4.046 -6.053 -6.798 -7.995C2.566 0.944 1.561 1.266 0.902 1.565 0.139 1.908 0 3.08 0 3.768c0 0.69 0.378 5.65 0.624 6.479 0.815 2.736 3.713 3.66 6.383 3.364 0.136 -0.02 0.275 -0.039 0.415 -0.056 -0.138 0.022 -0.276 0.04 -0.415 0.056 -3.912 0.58 -7.387 2.005 -2.83 7.078 5.013 5.19 6.87 -1.113 7.823 -4.308 0.953 3.195 2.05 9.271 7.733 4.308 4.267 -4.308 1.172 -6.498 -2.74 -7.078a8.741 8.741 0 0 1 -0.415 -0.056c0.14 0.017 0.279 0.036 0.415 0.056 2.67 0.297 5.568 -0.628 6.383 -3.364 0.246 -0.828 0.624 -5.79 0.624 -6.478 0 -0.69 -0.139 -1.861 -0.902 -2.206 -0.659 -0.298 -1.664 -0.62 -4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z" stroke-width="1"></path>
+          </svg>
+          <span>Post on Bluesky</span>
+        </a>
       </li>
-      <li class="inline-block">
-        <a class="github-button" href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}" data-icon="octicon-star" data-count-href="{{ site.github_username }}/{{ github_repo }}/stargazers" data-count-api="/repos/{{ site.github_username }}/{{ github_repo }}#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star {{ site.github_username }}/{{ github_repo }} on GitHub">Star</a>
+      <li class="flex items-center" id="github">
+        <a
+          class="github-button"
+          href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}"
+          data-icon="octicon-star"
+          data-count-href="{{ site.github_username }}/{{ github_repo }}/stargazers"
+          data-count-api="/repos/{{ site.github_username }}/{{ github_repo }}#stargazers_count"
+          data-count-aria-label="# stargazers on GitHub"
+          aria-label="Star {{ site.github_username }}/{{ github_repo }} on GitHub"
+          >Star</a
+        >
       </li>
     </ul>
   </div>
-</div>
+</footer>

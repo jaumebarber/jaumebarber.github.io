@@ -1,69 +1,94 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
   {% include head.liquid %}
-
   <body>
-
-    <div>
-
-      <header class="header-background">
-
-        <div class="clearfix border-bottom-thick header-border">
-          <ul class="list-reset right py-1 header-text font-smoothing">
-            {% for my_page in site.pages %}
-              {% if my_page.title %}
+    <div class="site-wrapper front-cover">
+      <div class="site-content">
+        <header class="header-background px-2">
+          <nav class="clearfix header-sticky py-1 mt-1 mt-lg-0">
+            <ul class="list-reset right py-1 header-text font-smoothing mt-lg-1 mb-2 mb-lg-1">
+              {% for page in site.pages %}
+                {% if page.title %}
+                  <li class="inline-block">
+                    <a class="align-middle link-primary header-link mr-2 mr-lg-0 ml-lg-2" href="{{ page.url | prepend: site.baseurl }}">
+                      {{- page.title -}}
+                    </a>
+                  </li>
+                {% endif %}
+              {% endfor %}
               <li class="inline-block">
-                <a class="align-middle link-primary header-link mr-2" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                {% include theme-toggle.liquid %}
               </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        </div>
+            </ul>
+          </nav>
+          <div class="container mx-auto px-2 mb-2 clearfix header-text">
+            <h1 class="h0 inline-block col-9 sm-width-full py-4 mt-3 header-title">{{ site.title }}</h1>
 
-        <div class="container mx-auto px-2 mb-2 clearfix header-text">
-          <h1 class="h0 inline-block col-9 sm-width-full py-4 mt-3 header-title">{{ site.title }}</h1>
-
-          <div class="clearfix mb-4 py-1">
-            <div class="col-4 sm-width-full left border-top-thin">
-              <div class="table">
-                <div class="inline-block mt-3 mr-1">
-                  {% include dot-accent.liquid %}
+            <div class="clearfix mb-4 py-1">
+              <div class="col-4 sm-width-full left border-top-thin">
+                <div class="table">
+                  <div class="inline-block mt-3 mr-1">
+                    {% include dot-accent.liquid %}
+                  </div>
+                  <div class="inline-block mt-3 mr-1">
+                    {% include dot-accent.liquid %}
+                  </div>
+                  <div class="inline-block mt-3">
+                    {% include github.liquid %}
+                  </div>
                 </div>
-                <div class="inline-block mt-3 mr-1">
-                  {% include dot-accent.liquid %}
-                </div>
-                <div class="inline-block mt-3">
-                  {% include github.liquid %}
-                </div>
+                <!-- Set site description in config.yml -->
+                <p class="h4 lh-condensed font-smoothing mt-2 py-1">{{ site.description }}</p>
               </div>
-              <!-- Set site description in config.yml -->
-              <p class="h4 lh-condensed font-smoothing mt-2 py-1">{{ site.description }}</p>
-            </div>
 
-            <div class="col-4 sm-width-full left border-top-thin mt-3 mt-lg-0 ml-lg-4 table">
+              <div class="col-4 sm-width-full left border-top-thin mt-3 mt-lg-0 ml-lg-4 table">
                 <div class="inline-block mt-3 mr-1">
                   {% include dot.liquid %}
                 </div>
-                <div class="inline-block mt-3">
-                  {% include {{ site.social_link | default: "twitter" }}.liquid %}
-                </div>
+                {% if site.linkedin_username %}
+                  <div class="inline-block mt-3 mr-1">
+                    {% include linkedin.liquid %}
+                  </div>
+                {% endif %}
+                {% if site.medium_username %}
+                  <div class="inline-block mt-3 mr-1">
+                    {% include medium.liquid %}
+                  </div>
+                {% endif %}
+                {% if site.bluesky_username %}
+                  <div class="inline-block mt-3 mr-1">
+                    {% include bluesky.liquid %}
+                  </div>
+                {% endif %}
+                {% if site.twitter_username %}
+                  <div class="inline-block mt-3 mr-1">
+                    {% include twitter.liquid %}
+                  </div>
+                {% endif %}
+                {% if site.instagram_username %}
+                  <div class="inline-block mt-3 mr-1">
+                    {% include instagram.liquid %}
+                  </div>
+                {% endif %}
+                {% if site.user_email %}
+                  <div class="inline-block mt-3 mr-1">
+                    {% include email.liquid %}
+                  </div>
+                {% endif %}
+              </div>
             </div>
           </div>
-
-        </div>
-      </header>
-
-      <div class="container mx-auto px-2 py-4">
-        {% for post in site.posts %}
-          {% include post_block.liquid %}
-        {% endfor %}
+        </header>
       </div>
-
+      {% if site.posts != empty %}
+        <div class="container mx-auto px-2 py-4">
+          {% for post in site.posts limit: 4 %}
+            {% include post_block.liquid %}
+          {% endfor %}
+        </div>
+      {% endif %}
+      {% assign inverted = 'inverted' %}
+      {% include footer.liquid inverted=inverted %}
     </div>
-
-    {% include footer.liquid %}
-
   </body>
-
 </html>

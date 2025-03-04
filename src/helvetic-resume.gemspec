@@ -3,7 +3,7 @@
 Gem::Specification.new do |spec|
   spec.name          = "helvetic-resume"
   spec.version       = "1.0.0"
-  spec.authors       = ["hipervincle", "broccolini"]
+  spec.authors       = ["hipervincle"]
   spec.email         = ["jbarber@hipervincle.com"]
 
   spec.summary       = %q{A bold typographic theme for Jekyll, inspired by Swiss design.}

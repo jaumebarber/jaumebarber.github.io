@@ -19,15 +19,17 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_repo: helvetic-resume # the GitHub repo name for your project
 github_username: hipervincle
+user_name: Hipervincle
 
-# Optional social link, you can choose from the following options:
-# twitter (default), instagram, medium, or dribbble
-social_link: twitter
-social_username: jekyllrb
+# Optional social links, you can choose from the following options:
+# linkedin, bluesky, x (twitter), instagram, medium, or dribbble. Just add
+# the name of the media + _username e.g. medium_username and then add your user name
+# to make it appear on the page
+user_email: user@hipervincle.com
 
-# Set theme color here
-# Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
-theme_color: black
+linkedin_username: hipervincle
+bluesky_username: hipervincle.bsky.social
+medium_username: hipervincle
 
 include: ["_pages"]
 exclude: ["scripts"]
