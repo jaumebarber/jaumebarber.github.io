@@ -1,8 +1,8 @@
-# Swiss Jekyll Theme
+# Helvetic Resume Theme
 
 [![Gem Version](https://badge.fury.io/rb/jekyll-swiss.svg)](https://badge.fury.io/rb/jekyll-swiss)
 
-Swiss is a bold Jekyll theme inspired by Swiss design and the works of Massimo Vignelli. This theme lends itself well to sites heavy on written content.
+Helvetic Resume is a bold Jekyll theme inspired by Swiss design and the works of Massimo Vignelli. This theme lends itself well to sites heavy on written content.
 
 ### Features:
 * Mobile-first design ensures this theme performs fastest on mobile while scaling elegantly to desktop-size screens.
@@ -13,16 +13,8 @@ Swiss is a bold Jekyll theme inspired by Swiss design and the works of Massimo V
 
 ## Installation
 
-Add this line to your Jekyll site's Gemfile:
 
-```ruby
-gem "github-pages", group: :jekyll_plugins
-```
 
-And add this line to your Jekyll site:
-
-```yaml
-remote_theme: broccolini/swiss
 ```
 
 And then execute:
