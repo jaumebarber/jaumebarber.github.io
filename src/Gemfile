@@ -11,3 +11,8 @@ gem "logger"
 gem "jekyll", "~> 4.4.1"
 gem "uglifier", "~> 4.2.1"
 
+group :jekyll_plugins do
+  gem "jekyll-polyglot", "~> 1.9"
+  gem "jekyll-redirect-from", "~> 0.16.0"
+  gem 'jekyll-date-localization', '~> 0.0.8'
+end

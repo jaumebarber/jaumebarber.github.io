@@ -16,7 +16,7 @@ code {
 }
 
 .prose {
-  a:not(.link-primary) {
+  a:not(.link-primary):not(.no-underline) {
     color: inherit;
     text-decoration: none !important;
     position: relative;

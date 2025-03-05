@@ -1,0 +1,32 @@
+<div class="language-menu inline-flex">
+  {% for lang in site.languages %}
+    {% if page.slug %}
+      {% assign posts = site.posts | where: "slug", page.slug | where: "lang", lang %}
+      {% assign target_post = posts.first %}
+      {% if target_post %}
+        {% assign target_url = target_post.url %}
+      {% else %}
+        {% assign target_url = page.url %}
+      {% endif %}
+    {% else %}
+      {% assign target_url = page.url %}
+    {% endif %}
+
+    <a
+      {% if lang == site.active_lang %}
+        class="selected"
+      {% endif %}
+      {% static_href -%}
+      href="{% if lang == site.default_lang %}{{ site.baseurl }}{{ target_url }}{% else %}{{ site.baseurl }}/{{ lang }}{{ target_url }}{% endif %}"
+      {% endstatic_href %}
+    >
+      {{- lang -}}
+    </a>
+    {%- if forloop.last == false -%}
+      {{ ' ' -}}
+      {{- site.langsep }}
+    {%- endif -%}
+  {% endfor %}
+</div>
+
+

@@ -1,12 +1,17 @@
 ---
 layout: post
-title:  "Markdown sample"
-date:   2016-09-04
+title: Markdown sample
+date: 2025-02-06
+lang: en
+categories: [jekyll]
+slug: markdown
+redirect_from:
+  - exemple-markdown
+  - ejemplo-markdown
+  - esempio-markdown
 ---
 
-### Markdown test document
-
-Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be have dotted underlines and solid underlines on hover.
+Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be underlined and display a growing accent-coloured underline on hover.
 
 There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.
 
@@ -34,9 +39,6 @@ This is a normal paragraph following a Heading. Bacon ipsum dolor sit amet t-bon
 
 ### Heading 3
 
-```
-This is a code block following a Heading.
-```
 
 #### Heading 4
 
@@ -72,18 +74,18 @@ Here is an unordered list:
 
 And an ordered list:
 
-1. Michael Jackson
-2. Michael Bolton
-3. Michael Bublé
+1. John Lennon
+2. Paul McCartney
+3. George Harrison
+
 
 And a nested list:
 
-* Jackson 5
-  * Michael
-  * Tito
-  * Jackie
-  * Marlon
-  * Jermaine
+* The Beatles
+  * John Lennon
+  * Paul McCartney
+  * George Harrison
+  * Ringo Starr
 * TMNT
   * Leonardo
   * Michelangelo
@@ -109,17 +111,17 @@ Tables should have bold headings and alternating shaded rows.
 
 | Artist            | Album           | Year |
 |-------------------|-----------------|------|
-| Michael Jackson   | Thriller        | 1982 |
-| Prince            | Purple Rain     | 1984 |
-| Beastie Boys      | License to Ill  | 1986 |
+| John Lennon       | Imagine         | 1971 |
+| The Beatles       | Abbey Road      | 1969 |
+| The Beatles       | Sgt. Pepper's Lonely Hearts Club Band  | 1967 |
 
 If a table is too wide, it should condense down and/or scroll horizontally.
 
 | Artist            | Album           | Year | Label       | Awards   | Songs     |
 |-------------------|-----------------|------|-------------|----------|-----------|
-| Michael Jackson   | Thriller        | 1982 | Epic Records | Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical | Wanna Be Startin' Somethin', Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life |
-| Prince            | Purple Rain     | 1984 | Warner Brothers Records | Grammy Award for Best Score Soundtrack for Visual Media, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Soundtrack/Cast Recording, Grammy Award for Best Rock Performance by a Duo or Group with Vocal | Let's Go Crazy, Take Me With U, The Beautiful Ones, Computer Blue, Darling Nikki, When Doves Cry, I Would Die 4 U, Baby I'm a Star, Purple Rain |
-| Beastie Boys      | License to Ill  | 1986 | Mercury Records | noawardsbutthistablecelliswide | Rhymin & Stealin, The New Style, She's Crafty, Posse in Effect, Slow Ride, Girls, (You Gotta) Fight for Your Right, No Sleep Till Brooklyn, Paul Revere, Hold It Now, Hit It, Brass Monkey, Slow and Low, Time to Get Ill |
+| John Lennon       | Imagine         | 1971 | Apple Records | Numerous awards | Imagine, Jealous Guy, Oh My Love, How?, I Don't Want To Be a Soldier, Crippled Inside, Oh Yoko!,  |
+| The Beatles       | Abbey Road      | 1969 | Apple Records | Numerous awards | Come Together, Something, Octopus's Garden, Here Comes the Sun, Because,  |
+| The Beatles      | Sgt. Pepper's Lonely Hearts Club Band  | 1967 | Parlophone | Numerous awards | A Day in the Life, With a Little Help from My Friends, Lucy in the Sky with Diamonds, Strawberry Fields Forever, When I'm Sixty-Four |
 
 ----------------
 
@@ -156,11 +158,11 @@ Inline code inside table cells should still be distinguishable.
 
 Small images should be shown at their actual size.
 
-![](http://placekitten.com/g/300/200/)
+![](https://placecats.com/g/300/200/)
 
 Large images should always scale down and fit in the content container.
 
-![](http://placekitten.com/g/1200/800/)
+![](https://placecats.com/g/1200/800/)
 
 ```
 This is the final element on the page and there should be no margin below this.
@@ -169,4 +171,4 @@ This is the final element on the page and there should be no margin below this.
 
 ## License
 
-[MIT](./LICENSE)
+[MIT](../LICENSE.txt)

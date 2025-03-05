@@ -1,5 +1,6 @@
 <!doctype html>
-<html>
+{% assign lang = site.active_lang %}
+<html lang="{{ lang }}">
   {% include head.liquid %}
   <body>
     <div class="site-wrapper front-cover">
@@ -7,8 +8,9 @@
         <header class="header-background px-2">
           <nav class="clearfix header-sticky py-1 mt-1 mt-lg-0">
             <ul class="list-reset right py-1 header-text font-smoothing mt-lg-1 mb-2 mb-lg-1">
-              {% for page in site.pages %}
-                {% if page.title %}
+              {% assign sorted_pages = site.pages | sort: "order" %}
+              {% for page in sorted_pages %}
+                {% if page.title and page.permalink != '/404' and page.lang == lang %}
                   <li class="inline-block">
                     <a class="align-middle link-primary header-link mr-2 mr-lg-0 ml-lg-2" href="{{ page.url | prepend: site.baseurl }}">
                       {{- page.title -}}
@@ -22,8 +24,7 @@
             </ul>
           </nav>
           <div class="container mx-auto px-2 mb-2 clearfix header-text">
-            <h1 class="h0 inline-block col-9 sm-width-full py-4 mt-3 header-title">{{ site.title }}</h1>
-
+            <h1 class="h0 inline-block col-9 sm-width-full py-4 mt-3 header-title">{{ site.data[lang].title }}</h1>
             <div class="clearfix mb-4 py-1">
               <div class="col-4 sm-width-full left border-top-thin">
                 <div class="table">
@@ -38,7 +39,7 @@
                   </div>
                 </div>
                 <!-- Set site description in config.yml -->
-                <p class="h4 lh-condensed font-smoothing mt-2 py-1">{{ site.description }}</p>
+                <p class="h4 lh-condensed font-smoothing mt-2 py-1">{{ site.data[lang].description }}</p>
               </div>
 
               <div class="col-4 sm-width-full left border-top-thin mt-3 mt-lg-0 ml-lg-4 table">
@@ -82,8 +83,10 @@
       </div>
       {% if site.posts != empty %}
         <div class="container mx-auto px-2 py-4">
-          {% for post in site.posts limit: 4 %}
-            {% include post_block.liquid %}
+          {% for post in site.posts limit:4 %}
+            {% if post.lang == lang %}
+              {% include post_block.liquid %}
+            {% endif %}
           {% endfor %}
         </div>
       {% endif %}

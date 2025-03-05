@@ -33,6 +33,7 @@ medium_username: hipervincle
 
 include: ["_pages"]
 exclude: ["scripts"]
+permalink: /:title/
 
 # Build settings
 markdown: kramdown
@@ -42,3 +43,17 @@ repository: broccolini/swiss
 livereload: true
 port: 4000
 
+plugins:
+  - jekyll-polyglot
+  - jekyll-redirect-from
+  - jekyll-date-localization
+
+redirect_from:
+  json: false
+
+languages: ["en", "ca", "es", "it"]
+langsep: ·
+default_lang: en
+exclude_from_localization: ["javascript", "images", "css", "public", "sitemap", "assets"]
+parallel_localization: false
+lang_from_path: true

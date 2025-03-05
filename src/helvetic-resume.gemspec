@@ -16,6 +16,9 @@ Gem::Specification.new do |spec|
 
 
   spec.add_development_dependency "jekyll", "~> 4.4.1"
+  spec.add_development_dependency "jekyll-polyglot", "~> 1.9"
+  spec.add_development_dependency "jekyll-redirect-from", "~> 0.16.0"
+  spec.add_development_dependency "jekyll-date-localization", "~> 0.0.8"
   spec.add_development_dependency "bundler", "~> 2.6.5"
   spec.add_development_dependency "rake", "~> 13.2.1"
 end

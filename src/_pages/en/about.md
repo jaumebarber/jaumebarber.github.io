@@ -1,7 +1,10 @@
 ---
-layout: page
 title: About
-permalink: /about/
+lang: en
+layout: page
+order: 1
+page_id: about
+permalink: about
 ---
 
 Helvetic Resume is a bold Jekyll theme inspired by Swiss design and the works of Massimo Vignelli. This theme lends itself well to sites heavy on written content.
