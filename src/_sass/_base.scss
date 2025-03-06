@@ -47,8 +47,8 @@ body {
   font-family: var(--body-font-family);
   font-size: var(--body-font-size);
   line-height: 1.5;
-  color: var(--color-body-text);
-  background-color: var(--color-background);
+  color: var(--text);
+  background-color: var(--background);
   &::-webkit-scrollbar {
     display: none;
   }
@@ -102,7 +102,7 @@ a {
 
   &:hover {
     text-decoration: underline;
-    text-decoration-color: var(--color-text-accent);
+    text-decoration-color: var(--text-accent);
     text-decoration-thickness: 3px;
   }
 }

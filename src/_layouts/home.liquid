@@ -3,7 +3,7 @@
 <html lang="{{ lang }}">
   {% include head.liquid %}
   <body>
-    <div class="site-wrapper front-cover">
+    <div class="site-wrapper">
       <div class="site-content">
         <header class="header-background px-2">
           <nav class="clearfix header-sticky py-1 mt-1 mt-lg-0">
@@ -19,7 +19,7 @@
                 {% endif %}
               {% endfor %}
               <li class="inline-block">
-                {% include theme-toggle.liquid %}
+                {% include theme-toggle.liquid class="header-link" %}
               </li>
             </ul>
           </nav>
@@ -90,8 +90,7 @@
           {% endfor %}
         </div>
       {% endif %}
-      {% assign inverted = 'inverted' %}
-      {% include footer.liquid inverted=inverted %}
+      {% include footer.liquid %}
     </div>
   </body>
 </html>

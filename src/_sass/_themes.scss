@@ -1,10 +1,13 @@
-$white: #f5f5f5;
+@use "sass:map";
+$whitesmoke: #f5f5f5;
+$white: #fff;
 
 $red: #e74727;
 $blue: #009ddb;
 $yellow: #fec92e;
 $magenta: #cd2da8;
-$black: #181818;
+$night: #000;
+$black: #111;
 $mint: #26dab7;
 $mint-dark: #1eae91;
 $orange: #fa8224;
@@ -14,31 +17,180 @@ $red-dark: #dc3918;
 $blue-dark: #007ab3;
 $gray: #45474a;
 
+
 // Theme definition mixin
-@mixin define-theme($name, $background, $foreground, $title, $text, $accent, $code) {
+@mixin define-theme($name, $theme) {
   .theme-#{$name} {
-    --icon-fill: #{$foreground};
-    --icon-fill-hover: #{$accent};
-    --color-foreground: #{$foreground};
-    --color-background: #{$background};
-    --color-dot-accent: #{$accent};
-    --color-text-accent: #{$accent};
-    --color-primary-link: #{$accent};
-    --color-nav-link: #{$accent};
-    --color-code: #{$code};
-    --color-title: #{$title};
-    --color-body-text: #{$text};
+    --header-background: #{map.get($theme, header-background)};
+    --header-title: #{map.get($theme, header-title)};
+    --header-text: #{map.get($theme, header-text)};
+    --header-links-hover: #{map.get($theme, header-links-hover)};
+    --header-dots: #{map.get($theme, header-dots)};
+    --header-icon: #{map.get($theme, header-icon)};
+    --header-icon-hover: #{map.get($theme, header-icon-hover)};
+
+    --foreground: #{map.get($theme, foreground)};
+    --background: #{map.get($theme, background)};
+    --text: #{map.get($theme, text)};
+    --text-accent: #{map.get($theme, text-accent)};
+    --link-hover: #{map.get($theme, link-hover)};
+    --code: #{map.get($theme, code)};
   }
 }
+$theme-mint: (
+  // Header
+  header-background: $mint,
+  header-title: $night,
+  header-text: $night,
+  header-links-hover: $white,
+  header-dots: $night,
+  header-icon: $night,
+  header-icon-hover: $white,
+  // Rest
+  foreground: $white,
+  background: $night,
+  text: $white,
+  text-accent: $mint,
+  link-hover: $mint,
+  code: $mint-dark,
+);
 
-// Dark themes
-@include define-theme("black", $black, $white, $white, $white, $red-dark, $red);
-@include define-theme("yellow", $black, $white, $white, $white, $yellow, $yellow);
-@include define-theme("dark-mint", $black, $white, $white, $white, $mint, $mint-dark);
-@include define-theme("orange", $black, $white, $white, $white, $orange, $orange-dark);
+$theme-black: (
+  // Header
+  header-background: $night,
+  header-title: $white,
+  header-text: $white,
+  header-links-hover: $red,
+  header-dots: $red,
+  header-icon: $white,
+  header-icon-hover: $red,
+  // Rest
+  foreground: $white,
+  background: $black,
+  text: $white,
+  text-accent: $red,
+  link-hover: $red,
+  code: $red-dark,
+);
 
-// Light themes
-@include define-theme("light", $white, $black, $black, $black, $red-dark, $red);
-@include define-theme("blue", $white, $black, $black, $black, $blue, $blue-dark);
-@include define-theme("mint", $white, $black, $black, $black, $mint, $mint-dark);
-@include define-theme("magenta", $white, $black, $black, $black, $magenta, $magenta);
+$theme-red: (
+  // Header
+  header-background: $red,
+  header-title: $whitesmoke,
+  header-text: $black,
+  header-links-hover: $whitesmoke,
+  header-dots: $black,
+  header-icon: $black,
+  header-icon-hover: $whitesmoke,
+  // Rest
+  foreground: $black,
+  background: $whitesmoke,
+  text: $black,
+  text-accent: $red,
+  link-hover: $red,
+  code: $red-dark,
+);
+
+$theme-white: (
+  // Header
+  header-background: $whitesmoke,
+  header-title: $black,
+  header-text: $black,
+  header-links-hover: $red,
+  header-dots: $red,
+  header-icon: $black,
+  header-icon-hover: $red,
+  // Rest
+  foreground: $black,
+  background: $white,
+  text: $black,
+  text-accent: $red,
+  link-hover: $red,
+  code: $red-dark,
+);
+
+$theme-yellow: (
+  // Header
+  header-background: $yellow,
+  header-title: $black,
+  header-text: $black,
+  header-links-hover: $white,
+  header-dots: $white,
+  header-icon: $black,
+  header-icon-hover: $white,
+  // Rest
+  foreground: $black,
+  background: $white,
+  text: $black,
+  text-accent: $yellow,
+  link-hover: $gray,
+  code: $gray,
+);
+
+$theme-blue: (
+  // Header
+  header-background: $blue,
+  header-title: $night,
+  header-text: $night,
+  header-links-hover: $white,
+  header-dots: $night,
+  header-icon: $night,
+  header-icon-hover: $white,	
+  // Rest
+  foreground: $white,
+  background: $night,
+  text: $white,
+  text-accent: $blue,
+  link-hover: $blue,
+  code: $blue-dark,
+);
+
+$theme-orange: (
+  // Header
+  header-background: $orange,
+  header-title: $white,
+  header-text: $night,
+  header-links-hover: $white,
+  header-dots: $night,
+  header-icon: $night,
+  header-icon-hover: $white,
+  // Rest
+  foreground: $white,
+  background: $night,
+  text: $white,
+  text-accent: $orange,
+  link-hover: $orange,
+  code: $orange-dark,
+);
+
+$theme-magenta: (
+  // Header
+  header-background: $magenta,
+  header-title: $white,
+  header-text: $white,
+  header-links-hover: $night,
+  header-dots: $night,
+  header-icon: $white,
+  header-icon-hover: $night,
+  // Rest
+  foreground: $night,
+  background: $white,
+  text: $night,
+  text-accent: $magenta,
+  link-hover: $magenta,
+  code: $magenta,
+);
+
+
+@include define-theme("black", $theme-black);
+@include define-theme("blue", $theme-blue);
+@include define-theme("mint", $theme-mint);
+@include define-theme("orange", $theme-orange);
+
+@include define-theme("white", $theme-white);
+@include define-theme("red", $theme-red);
+@include define-theme("yellow", $theme-yellow);
+@include define-theme("magenta", $theme-magenta);
+
+
+

@@ -74,34 +74,36 @@ $breakpoint-xs: 480px;
 
 /* Theme color utilities */
 .header-background {
-  background-color: var(--color-background);
+  background-color: var(--header-background) !important;
 }
 
 .header-border {
-  border-color: var(--color-foreground);
+  border-color: var(--header-text);
 }
 
 .header-title {
-  color: var(--color-title);
+  color: var(--header-title);
 }
 
 .header-text {
-  color: var(--color-foreground);
+  color: var(--header-text);
 }
 
 .header-social {
-  fill: var(--color-foreground);
+  fill: var(--header-text);
 }
 
 .header-social-accent {
-  fill: var(--color-dot-accent);
+  fill: var(--header-dots);
 }
 
-.header-link:hover {
-  color: var(--color-nav-link) !important;
+.header-link{
+  color: var(--header-text) !important;
+  &:hover {
+  color: var(--header-links-hover) !important;
+  }
 }
 
-// used for navigation links on homepage
 .header-sticky {
   position: -webkit-sticky;
   position: sticky;
@@ -111,22 +113,15 @@ $breakpoint-xs: 480px;
 }
 
 .text-accent {
-  color: var(--color-text-accent);
-  fill: var(--color-text-accent);
+  color: var(--text-accent);
+  fill: var(--text-accent);
 }
 
-// used for date in post list and home link
 .text-color {
-  color: var(--color-body-text);
-  fill: var(--color-body-text);
+  color: var(--text);
+  fill: var(--text);
 }
 
-// used for date in post list and home link
-
-.front-cover {
-  background-color: var(--color-foreground);
-  color: var(--color-background);
-}
 
 /* Layout utilities */
 .container {
@@ -489,9 +484,11 @@ $breakpoint-xs: 480px;
 .link-primary {
   font-weight: bold;
   text-decoration: none !important;
-
+  &:not(.text-accent) {
+    color: var(--text);
+  }
   &:hover {
-    color: var(--color-primary-link);
+    color: var(--link-hover);
     text-decoration: none !important;
   }
 }
@@ -550,26 +547,12 @@ $breakpoint-xs: 480px;
 
 footer {
   flex-shrink: 0;
-  background-color: var(--color-foreground);
-  color: var(--color-background);
+  background-color: var(--background);
+  color: var(--foreground);
   .language-menu {
     margin-bottom: 2px;
   }
 
-  &.inverted {
-    background-color: var(--color-background);
-    color: var(--color-foreground);
-    a {
-      &::before {
-        background-color: var(--color-foreground) !important;
-      }
-      &:is(.language-menu a) {
-        &::before {
-          background-color: var(--color-background) !important;
-        }
-      }
-    }
-  }
   a {
     &:not(.bluesky):not(.no-underline) {
       color: inherit;
@@ -583,7 +566,7 @@ footer {
         bottom: 0;
         width: 100%;
         height: 2px;
-        background-color: var(--color-background);
+        background-color: var(--text);
       }
 
       &::after {
@@ -593,7 +576,7 @@ footer {
         bottom: 0;
         width: 0;
         height: 2px;
-        background-color: var(--color-text-accent);
+        background-color: var(--text-accent);
         transition: width 400ms;
       }
 
@@ -604,7 +587,7 @@ footer {
 
     &:is(.language-menu a) {
       &::before {
-        background-color: var(--color-foreground) !important;
+        background-color: var(--background) !important;
       }
 
       &:is(.selected) {
@@ -618,24 +601,6 @@ footer {
   }
 }
 
-.sun-and-moon > :is(.moon, .sun, .sun-beams) {
-  transform-origin: center;
-}
-
-.sun-and-moon > :is(.moon, .sun) {
-  fill: var(--icon-fill);
-}
-
-.theme-toggle:is(:hover, :focus-visible) > .sun-and-moon > :is(.moon, .sun) {
-  fill: var(--icon-fill-hover);
-}
-
-.theme-toggle > svg {
-  inline-size: 100%;
-  block-size: 100%;
-  stroke-linecap: round;
-}
-
 .theme-toggle {
   cursor: pointer;
   user-select: none;
@@ -643,16 +608,41 @@ footer {
   background-color: transparent;
   padding: 0;
   height: 24px;
+  > svg {
+    inline-size: 100%;
+    block-size: 100%;
+    stroke-linecap: round;
+  }
+  > .sun-and-moon > :is(.moon, .sun, .sun-beams) {
+    transform-origin: center;
+    fill: var(--text);
+  }
+  &:is(:hover, :focus-visible) {
+    > .sun-and-moon > :is(.moon, .sun, .sun-beams) {
+      fill: var(--link-hover);
+    }
+    .sun-and-moon > .sun-beams {
+      stroke: var(--link-hover);
+      stroke-width: 2px;
+    }
+  }
+  &:is(.header-link) {
+    > .sun-and-moon > :is(.moon, .sun, .sun-beams) {
+      transform-origin: center;
+      fill: var(--header-icon);
+    }
+    &:is(:hover, :focus-visible) {
+      > .sun-and-moon > :is(.moon, .sun) {
+        fill: var(--header-icon-hover);
+      }
+      .sun-and-moon > .sun-beams {
+        stroke: var(--header-icon-hover);
+        stroke-width: 2px;
+      }
+    }
+  }
 }
 
-.sun-and-moon > .sun-beams {
-  stroke: var(--icon-fill);
-  stroke-width: 2px;
-}
-
-.theme-toggle:is(:hover, :focus-visible) .sun-and-moon > .sun-beams {
-  stroke: var(--icon-fill-hover);
-}
 
 [data-theme="dark"] .sun-and-moon > .sun {
   transform: scale(1.75);

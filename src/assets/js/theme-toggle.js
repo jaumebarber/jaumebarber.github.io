@@ -1,7 +1,7 @@
 (function () {
   const THEME_MAP = {
-    dark: ["black", "yellow", "dark-mint", "orange"],
-    light: ["blue", "light", "mint", "magenta"],
+    dark: ["black", "mint", "blue", "orange"],
+    light: ["white", "red", "yellow", "magenta"],
   };
 
   function getRandomTheme(mode) {
