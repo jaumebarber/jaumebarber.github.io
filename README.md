@@ -31,6 +31,7 @@ Assuming you've got Ruby and Bundler installed:
 cd src
 bundle install
 ````
+
 Let the process finish and then run:
 ```bash
 bundle exec jekyll serve
@@ -52,7 +53,7 @@ You'll find the translations currently in use in `_data` folder. Lastly, we're u
 ## Modes and colors
 
 This theme has been designed with the utmost desire of being faithful to it's original counterpart, albeit upgraded to modern standards not only in terms of dependencies but also tastes. 
-That's why we've put an amazing animation button to toggle between Dark and Light modes (thank you [web.dev](https://web.dev/patterns/theming/theme-switch?hl=es-419) for it!). 
+That's why we've put an amazing animation button to toggle between Dark and Light modes (thank you [web.dev](https://web.dev/patterns/theming/theme-switch) for it!). 
 
 Each time you press it, you'll not only be toggling from light to dark or vice versa, but also randomly changing between most of broccolini's designs for the Swiss theme. We've only discarded gray for a fresh alternative (we didn't like it ;P) and severely tweaked blue. The rest is kept as is, only adapting to the light/dark schemes. 
 
@@ -78,6 +79,11 @@ When your theme is released, only the files in `src`, tracked with Git will be r
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at [https://github.com/hipervincle/helvetic-resume](https://github.com/hipervincle/helvetic-resume). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-## License
+
+## Credits
+
+Theme switch: [web.dev](https://web.dev/patterns/theming/theme-switch)
+
+Favicon: [narak0rn](https://www.flaticon.com/free-icons/swiss-army-knife)
 
 The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
