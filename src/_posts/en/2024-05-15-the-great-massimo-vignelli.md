@@ -3,7 +3,7 @@ layout: post
 title: The great Massimo Vignelli
 date: 2024-05-15
 lang: en
-categories: [writing]
+categories: [reports]
 slug: vignelli
 redirect_from:
   - el-gran-massimo-vignelli

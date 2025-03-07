@@ -2,6 +2,41 @@ title: Helvetic Resume
 description: Un tema tipogràfic audaç inspirat pel disseny suís.
 previous: Anterior
 next: Següent
+watchmaking:
+  title: Rellotgeria
+  skills:
+    - name: Haute Horlogerie
+      level: 12
+    - name: Disseny de complicacions
+      level: 11
+    - name: Temps de precisió
+      level: 12
+    - name: Micro-mecànica
+      level: 10
+    - name: Restauració
+      level: 9
+flying:
+  title: Aeronàutica
+  skills:
+    - name: Pilot d'helicòpter (VFR)
+      level: 11
+    - name: Plans de vol
+      level: 10
+    - name: Procediments d'emergència
+      level: 12
+    - name: Vol de muntanya
+      level: 9
+programming:
+  title: Lingüística
+  skills:
+    - name: Disseny de llenguatges
+      level: 12
+    - name: Desenvolupament de compilador (prova de concepte)
+      level: 8
+    - name: Sintàxi i semàntica
+      level: 11
+    - name: Algorisme lògic
+      level: 9
 footer:
   attribution: Desenvolupat sobre el tema <a href="https://github.com/broccolini/swiss" target="_blank">swiss</a> de la gran <a href="https://github.com/broccolini" target="_blank">broccolini</a>.
   bluesky: Publica a

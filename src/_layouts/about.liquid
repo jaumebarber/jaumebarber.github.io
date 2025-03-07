@@ -1,0 +1,26 @@
+---
+layout: default
+---
+{% assign lang = site.active_lang %}
+<article class="container mx-auto px-2 mt2 mb4">
+  <header>
+    <h1 class="h0 py-4 mt-3">{{ page.headline }}</h1>
+  </header>
+  <div class="col-4 sm-width-full border-top-thin" id="divider"></div>
+  <div class="about">
+    <div class="prose mb-4 py-4">
+      {{ content }}
+    </div>
+    <div class="graphs">
+    {% assign watchmaking_title=site.data[lang].watchmaking.title %}
+    {% assign watchmaking_skills=site.data[lang].watchmaking.skills %}
+    {% assign flying_title=site.data[lang].flying.title %}
+    {% assign flying_skills=site.data[lang].flying.skills %}
+    {% assign programming_title=site.data[lang].programming.title %}
+    {% assign programming_skills=site.data[lang].programming.skills %}
+    {% include bar_graph.liquid title=watchmaking_title items=watchmaking_skills height="150" width="250" %}
+    {% include bar_graph.liquid title=flying_title items=flying_skills height="150" width="250" %}
+    {% include bar_graph.liquid title=programming_title items=programming_skills height="150" width="250" %}
+    </div>
+  </div>
+</article>

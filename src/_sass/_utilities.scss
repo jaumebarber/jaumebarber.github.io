@@ -601,6 +601,13 @@ footer {
   }
 }
 
+.octicon {
+  display: inline-block;
+  vertical-align: text-top;
+  fill: var(--text);
+  overflow: visible;
+}
+
 .theme-toggle {
   cursor: pointer;
   user-select: none;

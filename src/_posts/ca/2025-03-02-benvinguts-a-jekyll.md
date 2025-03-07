@@ -3,7 +3,7 @@ layout: category-post
 title: Benvinguts a Jekyll!
 date: 2025-03-02
 lang: ca
-categories: [jekyll]
+categories: [documentacio]
 slug: welcome
 redirect_from:
   - welcome-to-jekyll

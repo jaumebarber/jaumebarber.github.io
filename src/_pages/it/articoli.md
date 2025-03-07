@@ -1,11 +1,12 @@
 ---
 layout: category_index
-lang: ca
-title: Escrits
-permalink: escrits
+lang: it
+title: Articoli
+headline: Articoli
+permalink: articoli
 order: 3
-page_id: writing
-category_name: escrits
+page_id: reports
+category_name: articoli
 ---
 
 <!--

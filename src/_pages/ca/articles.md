@@ -1,11 +1,12 @@
 ---
 layout: category_index
-lang: it
-title: Scritti
-permalink: scritti
+lang: ca
+title: Articles
+headline: Articles
+permalink: articles
 order: 3
-page_id: writing
-category_name: scritti
+page_id: reports
+category_name: articles
 ---
 
 <!--

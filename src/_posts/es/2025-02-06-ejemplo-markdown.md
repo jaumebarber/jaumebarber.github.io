@@ -3,7 +3,7 @@ layout: post
 title: Ejemplo de Markdown
 date: 2025-02-06
 lang: es
-categories: [jekyll]
+categories: [docs]
 slug: markdown
 redirect_from:
   - exemple-markdown

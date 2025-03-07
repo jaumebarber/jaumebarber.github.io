@@ -1,11 +1,12 @@
 ---
 layout: category_index
 lang: en
-title: Writing
-permalink: writing
+title: Reports
+headline: Reports
+permalink: reports
 order: 3
-page_id: writing
-category_name: writing
+page_id: reports
+category_name: reports
 ---
 
 <!--

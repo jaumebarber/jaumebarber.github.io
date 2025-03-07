@@ -1,0 +1,17 @@
+{% assign y_pos = 15 %}
+<div class="block">
+  <h2>{{ include.title }}</h2>
+  <svg xmlns="http://www.w3.org/2000/svg" width="{{ include.width }}" height="{{ include.height }}">
+    {% for item in include.items %}
+      {% if item.name %}
+        {% assign item_name = item.name %}
+      {% else %}
+        {% assign item_name = item %}
+      {% endif %}
+      <text x="0" y="{{ y_pos }}" class="text-color">{{ item_name }}</text>
+      <rect x="0" width="{{ include.width }}" height="5" y="{{ y_pos | plus: 8 }}" fill="#bbb" rx="3" ry="3"/>
+      <rect x="0" width="{{ include.width | divided_by: 12 | times: item.level }}" height="5" y="{{ y_pos | plus: 8 }}" class="text-accent" rx="3" ry="3"/>
+      {% assign y_pos = y_pos | plus: 40 %}
+    {% endfor %}
+  </svg>
+</div>

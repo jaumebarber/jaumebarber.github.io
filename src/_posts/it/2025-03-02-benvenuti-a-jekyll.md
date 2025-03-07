@@ -3,7 +3,7 @@ layout: category-post
 title: Benvenuti a Jekyll!
 date: 2025-03-02
 lang: it
-categories: [jekyll]
+categories: [documenti]
 slug: welcome
 redirect_from:
   - welcome-to-jekyll

@@ -50,6 +50,7 @@ plugins:
   - jekyll-minifier
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-octicons
 
 redirect_from:
   json: false

@@ -3,7 +3,7 @@ layout: post
 title: El gran Massimo Vignelli
 date: 2024-05-15
 lang: es
-categories: [escritos]
+categories: [articulos]
 slug: vignelli
 redirect_from:
   - el-gran-massimo-vignelli
