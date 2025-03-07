@@ -47,9 +47,16 @@ plugins:
   - jekyll-polyglot
   - jekyll-redirect-from
   - jekyll-date-localization
+  - jekyll-minifier
+  - jekyll-sitemap
+  - jekyll-feed
 
 redirect_from:
   json: false
+
+jekyll-minifier:
+  uglifier_args:
+    harmony: true
 
 languages: ["en", "ca", "es", "it"]
 langsep: ·
