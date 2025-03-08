@@ -4,10 +4,36 @@
     light: ["white", "red", "yellow", "magenta"],
   };
 
+  const TRANSLATIONS = {
+    'en': {
+      dark: 'Dark Mode',
+      light: 'Light Mode'
+    },
+    'ca': {
+      dark: 'Mode fosc',
+      light: 'Mode clar'
+    },
+    'es': {
+      dark: 'Modo oscuro',
+      light: 'Modo claro'
+    },
+    'it': {
+      dark: 'Modo scuro',
+      light: 'Modo chiaro'
+    }
+  };
+
   function getRandomTheme(mode) {
     const themes = THEME_MAP[mode];
     const randomIndex = Math.floor(Math.random() * themes.length);
     return themes[randomIndex];
+  }
+
+  
+  function getLocalizedText(mode) {
+    const lang = document.documentElement.lang || 'en';
+    const translations = TRANSLATIONS[lang] || TRANSLATIONS['en'];
+    return translations[mode];
   }
 
   function setTheme(preference, specificTheme = null) {
@@ -33,6 +59,8 @@
     const toggle = document.querySelector("#theme-toggle");
     if (toggle) {
       toggle.setAttribute("aria-label", preference);
+      const nextMode = preference === 'dark' ? 'light' : 'dark';
+      toggle.setAttribute("title", getLocalizedText(nextMode));
     }
 
     // Save both preference and specific theme
