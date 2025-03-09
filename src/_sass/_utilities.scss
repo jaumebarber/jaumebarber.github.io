@@ -601,20 +601,24 @@ footer {
   }
 }
 
-.octicon {
-  display: inline-block;
-  vertical-align: text-top;
-  fill: var(--text);
-  overflow: visible;
+.fa-solid, .print-only {
+  display: none;
 }
 
-.theme-toggle {
+.print-button {
+  margin-bottom: .5rem;
+}
+
+.theme-toggle, .print-button {
   cursor: pointer;
   user-select: none;
   border: none;
   background-color: transparent;
   padding: 0;
   height: 24px;
+}
+
+.theme-toggle {
   > svg {
     inline-size: 100%;
     block-size: 100%;

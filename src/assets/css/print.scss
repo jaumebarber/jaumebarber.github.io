@@ -1,0 +1,115 @@
+---
+---
+
+@media print {
+  @page {
+    size: A4;
+    margin: 1.8cm;
+    margin-right: 1.5cm;
+  }
+
+  .job {
+    display: inline-block !important;
+  }
+
+  .contact-data, .links {
+    display: block !important;
+  }
+
+  .right-column {
+    margin-left: .5cm;
+    p {font-size: 10pt;}
+  }
+
+  .fa-solid, .print-only {
+    display: inline-block;
+  }
+
+  .section {
+    margin-left: -.65cm;
+  }
+
+  body {
+    font-size: 10pt;
+    line-height: 1.3;
+    background: #fff !important;
+    color: #000 !important; 
+  }
+
+  .text-color {
+    color: #000 !important;
+    fill: #000 !important;
+  }
+
+  // Hide non-essential elements
+  nav, 
+  footer,
+  .theme-toggle,
+  .print-button,
+  .header-sticky,
+  .language-menu,
+  #divider {
+    display: none !important;
+  }
+
+  // Adjust article layout
+  article {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  // Headers styling
+  h1 {
+    font-size: 20pt !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  h2 {
+    font-size: 14pt;
+  }
+
+  // Links handling
+  a {
+    color: var(--text-accent) !important;
+    text-decoration: none !important;
+  }
+
+  // List styling
+  ul, ol {
+    margin-left: 0;
+    padding-left: .7cm;
+  }
+
+  // Avoid page breaks inside important elements
+  li, 
+  tr {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+
+
+
+  // Remove background colors and adjust text colors
+  .about {
+    display: flex !important;
+    .prose {
+      padding: .5cm 0 !important;
+      margin-left: .75cm;
+      width: 11.6cm !important;
+    }
+    .prose p, ul, ol {
+      font-size: 11pt;
+    }
+    background: none !important;
+    color: #000 !important;
+  }
+
+  // Adjust graphs if present
+  .graphs {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+}

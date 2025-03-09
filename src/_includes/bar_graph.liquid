@@ -9,8 +9,8 @@
         {% assign item_name = item %}
       {% endif %}
       <text x="0" y="{{ y_pos }}" class="text-color">{{ item_name }}</text>
-      <rect x="0" width="{{ include.width }}" height="5" y="{{ y_pos | plus: 8 }}" fill="#bbb" rx="3" ry="3"/>
-      <rect x="0" width="{{ include.width | divided_by: 12 | times: item.level }}" height="5" y="{{ y_pos | plus: 8 }}" class="text-accent" rx="3" ry="3"/>
+      <rect x="0" width="{{ include.width }}" height="3" y="{{ y_pos | plus: 8 }}" fill="#bbb" rx="3" ry="3"/>
+      <rect x="0" width="{{ include.width | divided_by: 12 | times: item.level }}" height="3" y="{{ y_pos | plus: 8 }}" class="text-accent" rx="3" ry="3"/>
       {% assign y_pos = y_pos | plus: 40 %}
     {% endfor %}
   </svg>

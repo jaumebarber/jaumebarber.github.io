@@ -28,7 +28,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "jekyll-minifier", "~> 0.1.10"
   spec.add_development_dependency "jekyll-sitemap", "~> 1.4.0"
   spec.add_development_dependency "jekyll-feed", "~> 0.17.0"
-  spec.add_development_dependency "jekyll-octicons", "~> 19.8.0"
   spec.add_development_dependency "bundler", "~> 2.6.5"
   spec.add_development_dependency "rake", "~> 13.2.1"
 end

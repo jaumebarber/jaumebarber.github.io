@@ -5,22 +5,38 @@ layout: default
 <article class="container mx-auto px-2 mt2 mb4">
   <header>
     <h1 class="h0 py-4 mt-3">{{ page.headline }}</h1>
+    <p class="job">{{ site.data[lang].job }}</p>
   </header>
+  {% include print-button.liquid %}
   <div class="col-4 sm-width-full border-top-thin" id="divider"></div>
   <div class="about">
-    <div class="prose mb-4 py-4">
+    <div class="prose mb-4 py-2">
       {{ content }}
     </div>
-    <div class="graphs">
-    {% assign watchmaking_title=site.data[lang].watchmaking.title %}
-    {% assign watchmaking_skills=site.data[lang].watchmaking.skills %}
-    {% assign flying_title=site.data[lang].flying.title %}
-    {% assign flying_skills=site.data[lang].flying.skills %}
-    {% assign programming_title=site.data[lang].programming.title %}
-    {% assign programming_skills=site.data[lang].programming.skills %}
-    {% include bar_graph.liquid title=watchmaking_title items=watchmaking_skills height="150" width="250" %}
-    {% include bar_graph.liquid title=flying_title items=flying_skills height="150" width="250" %}
-    {% include bar_graph.liquid title=programming_title items=programming_skills height="150" width="250" %}
+    <div class="right-column">
+      <div class="contact-data">
+        <h2>{{ site.data[lang].contact }}</h2>
+        <p><i class="fa-solid fa-phone"></i> {{ site.data.common.phone }}</p>
+        <p><i class="fa-solid fa-location-dot"></i> {{ site.data.common.address }}</p>
+        <p><i class="fa-solid fa-at"></i> <a href="mailto:{{ site.data.common.email }}">{{ site.data.common.email }}</a></p>
+      </div>
+      <div class="links">
+        <h2>{{ site.data[lang].links }}</h2>
+        {% for link in site.data.common.links %}
+          <p><a href="{{ link.url }}">{{ link.name }}</a></p>
+        {% endfor %}
+      </div>
+      <div class="graphs">
+      {% assign watchmaking_title=site.data[lang].watchmaking.title %}
+      {% assign watchmaking_skills=site.data[lang].watchmaking.skills %}
+      {% assign flying_title=site.data[lang].flying.title %}
+      {% assign flying_skills=site.data[lang].flying.skills %}
+      {% assign programming_title=site.data[lang].programming.title %}
+      {% assign programming_skills=site.data[lang].programming.skills %}
+      {% include bar_graph.liquid title=watchmaking_title items=watchmaking_skills height="150" width="180" %}
+      {% include bar_graph.liquid title=flying_title items=flying_skills height="150" width="180" %}
+      {% include bar_graph.liquid title=programming_title items=programming_skills height="220" width="180" %}
+      </div>
     </div>
   </div>
 </article>
