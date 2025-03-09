@@ -1,7 +1,8 @@
 # Helvetic Resume
 
-Helvetic Resume is a bold Jekyll theme inspired by Swiss design and the works of Massimo Vignelli. This theme lends itself well to sites heavy on written content.
+[![Gem Version](https://badge.fury.io/rb/helvetic-resume.svg)](https://badge.fury.io/rb/helvetic-resume)
 
+Helvetic Resume is a bold Jekyll theme inspired by Swiss design and the works of Massimo Vignelli. This theme lends itself well to sites heavy on written content.
 ### Features:
 * Mobile-first design ensures this theme performs fastest on mobile while scaling elegantly to desktop-size screens.
 * Designed for blogs and sites heavy on written content, with bold typography styles, homepage summaries, and previous/next snippets.

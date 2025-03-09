@@ -39,7 +39,7 @@ programming:
       level: 8
     - name: Sintassi e semantica
       level: 11
-    - name: Algortimo logico
+    - name: Logica algoritmica
       level: 9
 footer:
   attribution: Sviluppato sul tema <a href="https://github.com/broccolini/swiss" target="_blank">swiss</a> della grande <a href="https://github.com/broccolini" target="_blank">broccolini</a>.
