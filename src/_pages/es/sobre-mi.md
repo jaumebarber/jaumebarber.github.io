@@ -15,7 +15,7 @@ Durante más de 25 años, me he dedicado al oficio de la relojería, combinando 
 
 <h2 class="section"><i class="fa-solid fa-briefcase"></i> Experiencia profesional</h2>
 _Julio, 1998 -- esta misma mañana_\\
-**Relojero jefe - Tempus Precision Watches (Autónomo)**
+**Relojera jefe - Tempus Precision Watches (Autónomo)**
 
 - Establecí un taller de relojería personalizado, especializado en relojes mecánicos hechos a mano.
 - Diseñé y construí más de 50 relojes únicos y de alta complicación para coleccionistas privados.
@@ -32,7 +32,7 @@ _Estacional, 1 mes/año, 2005 -- hasta la fecha_\\
 - Proporciono instrucción de vuelo y mentoría a pilotos jóvenes.
 
 _Proyecto personal, 2010 -- hoy y contando_\\
-**Creador de _Lingua Tempus_**
+**Creadora de _Lingua Tempus_**
 
 - Desarrollé un lenguaje de programación funcional basado en el latín.
 - Diseñé una sintaxis única y una estructura gramatical para _Lingua Tempus_, combinando lógica antigua con principios computacionales modernos.

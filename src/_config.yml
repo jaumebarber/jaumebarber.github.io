@@ -20,13 +20,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_repo: helvetic-resume # the GitHub repo name for your project
 github_username: hipervincle
 user_name: Hipervincle
-
+user_email: user@hipervincle.com
+avatar: /assets/images/avatar.webp
 # Optional social links, you can choose from the following options:
 # linkedin, bluesky, x (twitter), instagram, medium, or dribbble. Just add
 # the name of the media + _username e.g. medium_username and then add your user name
 # to make it appear on the page
-user_email: user@hipervincle.com
-
 linkedin_username: hipervincle
 bluesky_username: hipervincle.bsky.social
 medium_username: hipervincle

@@ -15,7 +15,7 @@ Durant més de 25 anys, m'he dedicat a l'ofici de la rellotgeria, combinant tèc
 
 <h2 class="section"><i class="fa-solid fa-briefcase"></i> Experiència professional</h2>
 _Juliol, 1998 -- aquest mateix matí_\\
-**Rellotger cap - Tempus Precision Watches (Autònom)**
+**Rellotgera cap - Tempus Precision Watches (Autònom)**
 
 - Vaig establir un taller de rellotgeria a mida, especialitzat en rellotges mecànics fets a mà.
 - Vaig dissenyar i construir més de 50 rellotges únics i d'alta complicació per a col·leccionistes privats.
@@ -32,10 +32,9 @@ _Estacional, 1 mes/any, 2005 -- fins ara_\\
 - Proveïment d'instrucció de vol i mentoria per a pilots joves.
 
 _Projecte personal, 2010 -- avui i comptant_\\
-**Creador de _Lingua Tempus_**
+**Creadora de _Lingua Tempus_**
 
-- Vaig desenvolupar un<h2 class="section"><i class="fa-solid fa-trophy"></i> Awards & Recognition</h2>
-  llenguatge de programació funcional basat en el llatí.
+- Vaig desenvolupar un llenguatge de programació funcional basat en el llatí.
 - Vaig dissenyar una sintaxi única i una estructura gramatical per a _Lingua Tempus_, combinant lògica antiga amb principis computacionals moderns.
 - Vaig desenvolupar un intèrpret bàsic capaç d'analitzar i executar algorismes senzills en _Lingua Tempus_.
 
