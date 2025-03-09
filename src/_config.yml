@@ -21,7 +21,6 @@ github_repo: helvetic-resume # the GitHub repo name for your project
 github_username: hipervincle
 user_name: Hipervincle
 user_email: user@hipervincle.com
-avatar: /assets/images/avatar.webp
 # Optional social links, you can choose from the following options:
 # linkedin, bluesky, x (twitter), instagram, medium, or dribbble. Just add
 # the name of the media + _username e.g. medium_username and then add your user name
