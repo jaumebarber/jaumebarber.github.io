@@ -35,7 +35,7 @@ programming:
   skills:
     - name: Language Design
       level: 12
-    - name: Compiler Development (Proof of Concept)
+    - name: Compiler Development (PoC)
       level: 8
     - name: Syntax & Semantics
       level: 11

@@ -35,7 +35,7 @@ programming:
   skills:
     - name: Design di linguaggi
       level: 12
-    - name: Desarrollo di compilatore (prova di concetto)
+    - name: Desarrollo di compilatore (pdc)
       level: 8
     - name: Sintassi e semantica
       level: 11
