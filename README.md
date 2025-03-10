@@ -1,8 +1,9 @@
 # Helvetic Resume
 
-[![Gem Version](https://badge.fury.io/rb/helvetic-resume.svg)](https://badge.fury.io/rb/helvetic-resume)
+[![Gem Version](https://badge.fury.io/rb/helvetic-resume.svg)](https://badge.fury.io/rb/helvetic-resume) [![Check Links](https://github.com/jaumebarber/jaumebarber.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/jaumebarber/jaumebarber.github.io/actions/workflows/deploy.yml) [![Check Accessibility](https://github.com/jaumebarber/jaumebarber.github.io/actions/workflows/axe.yml/badge.svg)](https://github.com/jaumebarber/jaumebarber.github.io/actions/workflows/axe.yml)
 
 Helvetic Resume is a bold Jekyll theme inspired by Swiss design and the works of Massimo Vignelli. This theme lends itself well to sites heavy on written content.
+
 ### Features:
 * Mobile-first design ensures this theme performs fastest on mobile while scaling elegantly to desktop-size screens.
 * Designed for blogs and sites heavy on written content, with bold typography styles, homepage summaries, and previous/next snippets.
@@ -70,6 +71,17 @@ Each time you press it, you'll not only be toggling from light to dark or vice v
 | <img width="330" alt="orange" src="./src/assets/images/theme_orange.png"> | <img width="330" alt="yellow" src="./src/assets/images/theme_yellow.png"> |
 
 
+## Lighthouse PageSpeed Insights
+
+### Desktop
+[![Lighthouse Desktop](lighthouse_results/desktop/pagespeed.svg)](lighthouse_results/desktop/pagespeed.svg)
+
+[Desktop report](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jaumebarber/jaumebarber.github.io/refs/heads/master/lighthouse_results/desktop/jaumebarber_com.html)
+
+### Mobile
+[![Lighthouse Mobile](lighthouse_results/mobile/pagespeed.svg)](lighthouse_results/mobile/pagespeed.svg)
+
+[Mobile report](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jaumebarber/jaumebarber.github.io/refs/heads/master/lighthouse_results/desktop/jaumebarber_com.html)
 
 ## Development
 
@@ -80,6 +92,7 @@ When your theme is released, only the files in `src`, tracked with Git will be r
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at [https://github.com/hipervincle/helvetic-resume](https://github.com/hipervincle/helvetic-resume). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
 
 ## Credits
 
