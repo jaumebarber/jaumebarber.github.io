@@ -16,7 +16,7 @@ Adoro la cultura DevOps e mi diverto un mondo a lavorare con i container, Terraf
 _Luglio, 2024 -- Stamattina_\\
 **Ingegnere DevOps presso [Alten](https://alten.es)**, che consiste nello sviluppare e sopportare una piattaforma data lake su AWS Glue, Lambda, CloudFormation, e così via, in realtà è un grande castello, fidatevi ;). Il mio lavoro qui implica sviluppo full stack, soprattutto in Python e Angular, supporto al cliente e ottimizzazione del prodotto.
 
-<h2 class="section"><i class="fa-solid fa-backwards"></i> Una volta ero</h2>
+<h2 class="section"><i class="fa-solid fa-backward"></i> Una volta ero</h2>
 _Giugno, 2021 -- Gennaio, 2023_\\
 **Lead dei Sistemi presso [Eventscase](https://eventscase.com)**, dove ho terraformato o ansibilizzato tutti i servizi AWS che utilizzavamo. Prima di questo ho partecipato alla containerizzazione della piattaforma. E a montare ambienti di sviluppo e di test. E poi c'è la manutenzione quotidiana, la gestione della piattaforma...
 

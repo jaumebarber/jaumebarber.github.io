@@ -16,7 +16,7 @@ M'encanta la cultura DevOps, i gaudisc prou treballant amb contenidors, Terrafor
 _Juliol, 2024 -- Avui al matí_\\
 **Enginyer DevOps a [Alten](https://alten.es)**, que consisteix a desenvolupar i mantenir una plataforma de llac de dades sobre AWS Glue, Lambdas, CloudFormation, i això i el de més enllà, la veritat és que és un gran castell ;). La meua feina allà implica desenvolupament full stack, sobretot en Python i Angular, suport al client i optimització del producte.
 
-<h2 class="section"><i class="fa-solid fa-backwards"></i> Abans era</h2>
+<h2 class="section"><i class="fa-solid fa-backward"></i> Abans era</h2>
 _Juny, 2021 -- Gener, 2023_\\
 **Lead de Sistemes a [Eventscase](https://eventscase.com)**, on vaig terraformar, o ansibilitzar tots els serveis d'AWS que féiem servir. Abans d'això vaig participar en la contenedorització del producte. I a muntar entorns de desenvolupament i de proves. I després està el manteniment diari i la gestió de la plataforma...
 
