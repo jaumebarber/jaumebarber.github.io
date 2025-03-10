@@ -1,7 +1,7 @@
 <div class="language-menu inline-flex">
   {% for lang in site.languages %}
     {% if page.slug %}
-      {% assign posts = site.posts | where: "slug", page.slug | where: "lang", lang %}
+      {% assign posts = site.posts | where: 'slug', page.slug | where: 'lang', lang %}
       {% assign target_post = posts.first %}
       {% if target_post %}
         {% assign target_url = target_post.url %}
@@ -28,5 +28,3 @@
     {%- endif -%}
   {% endfor %}
 </div>
-
-

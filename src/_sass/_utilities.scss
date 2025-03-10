@@ -100,10 +100,10 @@ $breakpoint-xs: 480px;
   fill: var(--header-dots);
 }
 
-.header-link{
+.header-link {
   color: var(--header-text) !important;
   &:hover {
-  color: var(--header-links-hover) !important;
+    color: var(--header-links-hover) !important;
   }
 }
 
@@ -124,7 +124,6 @@ $breakpoint-xs: 480px;
   color: var(--text);
   fill: var(--text);
 }
-
 
 /* Layout utilities */
 .container {
@@ -604,15 +603,17 @@ footer {
   }
 }
 
-.fa-solid, .print-only {
+.fa-solid,
+.print-only {
   display: none;
 }
 
 .print-button {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
-.theme-toggle, .print-button {
+.theme-toggle,
+.print-button {
   cursor: pointer;
   user-select: none;
   border: none;
@@ -656,7 +657,6 @@ footer {
     }
   }
 }
-
 
 [data-theme="dark"] .sun-and-moon > .sun {
   transform: scale(1.75);

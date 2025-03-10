@@ -6,7 +6,9 @@ layout: default
   <header>
     <h1 class="h0 py-4 mt-3">{{ page.headline }}</h1>
     <h1 class="print-only">{{ site.user_name }}</h1>
-    <p class="print-only">{% if site.data[lang].job %}{{ site.data[lang].job }}{% else %}{{ site.data[lang].description }}{% endif %}</p>
+    <p class="print-only">
+      {% if site.data[lang].job %}{{ site.data[lang].job }}{% else %}{{ site.data[lang].description }}{% endif %}
+    </p>
   </header>
   {% include print-button.liquid %}
   <div class="col-4 sm-width-full border-top-thin" id="divider"></div>
@@ -19,21 +21,29 @@ layout: default
         <h2>{{ site.data[lang].contact }}</h2>
         <p><i class="fa-solid fa-phone"></i> {{ site.data.common.phone }}</p>
         <p><i class="fa-solid fa-location-dot"></i> {{ site.data.common.address }}</p>
-        <p><i class="fa-solid fa-at"></i> <a href="mailto:{{ site.user_email }}">{{ site.user_email }}</a></p>
+        <p>
+          <i class="fa-solid fa-at"></i> <a href="mailto:{{ site.user_email }}">{{ site.user_email }}</a>
+        </p>
       </div>
       <div class="links">
         <h2>{{ site.data[lang].links }}</h2>
-          <p><a href="{{ site.url }}">{{ site.url }}</a></p>
-          <p><a href="https://linkedin.com/in/{{ site.linkedin_username }}">linkedin.com/in/{{ site.linkedin_username }}</a></p>
-          <p><a href="https://github.com/{{ site.github_username }}">github.com/{{ site.github_username }}</a></p>
+        <p>
+          <a href="{{ site.url }}">{{ site.url }}</a>
+        </p>
+        <p>
+          <a href="https://linkedin.com/in/{{ site.linkedin_username }}">linkedin.com/in/{{ site.linkedin_username }}</a>
+        </p>
+        <p>
+          <a href="https://github.com/{{ site.github_username }}">github.com/{{ site.github_username }}</a>
+        </p>
       </div>
       <div class="graphs">
-      {% assign stack_title=site.data[lang].stack.title %}
-      {% assign stack_items=site.data.common.stack.items %}
-      {% assign langs_title=site.data[lang].langs_graph.title %}
-      {% assign langs=site.data[lang].langs_graph.langs %}
-      {% include bar_graph.liquid title=stack_title items=stack_items height="600" width="220" %}
-      {% include bar_graph.liquid title=langs_title items=langs height="220" width="220" %}
+        {% assign stack_title = site.data[lang].stack.title %}
+        {% assign stack_items = site.data.common.stack.items %}
+        {% assign langs_title = site.data[lang].langs_graph.title %}
+        {% assign langs = site.data[lang].langs_graph.langs %}
+        {% include bar_graph.liquid title=stack_title items=stack_items height="600" width="220" %}
+        {% include bar_graph.liquid title=langs_title items=langs height="220" width="220" %}
       </div>
     </div>
   </div>

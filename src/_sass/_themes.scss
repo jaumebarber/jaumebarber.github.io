@@ -17,7 +17,6 @@ $red-dark: #dc3918;
 $blue-dark: #007ab3;
 $gray: #45474a;
 
-
 // Theme definition mixin
 @mixin define-theme($name, $theme) {
   .theme-#{$name} {
@@ -52,7 +51,7 @@ $theme-mint: (
   text: $white,
   text-accent: $mint,
   link-hover: $mint,
-  code: $mint-dark,
+  code: $mint-dark
 );
 
 $theme-black: (
@@ -70,7 +69,7 @@ $theme-black: (
   text: $white,
   text-accent: $red,
   link-hover: $red,
-  code: $red-dark,
+  code: $red-dark
 );
 
 $theme-red: (
@@ -88,7 +87,7 @@ $theme-red: (
   text: $black,
   text-accent: $red,
   link-hover: $red,
-  code: $red-dark,
+  code: $red-dark
 );
 
 $theme-white: (
@@ -106,7 +105,7 @@ $theme-white: (
   text: $black,
   text-accent: $red,
   link-hover: $red,
-  code: $red-dark,
+  code: $red-dark
 );
 
 $theme-yellow: (
@@ -124,7 +123,7 @@ $theme-yellow: (
   text: $black,
   text-accent: $yellow,
   link-hover: $gray,
-  code: $gray,
+  code: $gray
 );
 
 $theme-blue: (
@@ -135,14 +134,14 @@ $theme-blue: (
   header-links-hover: $white,
   header-dots: $night,
   header-icon: $night,
-  header-icon-hover: $white,	
+  header-icon-hover: $white,
   // Rest
   foreground: $white,
   background: $night,
   text: $white,
   text-accent: $blue,
   link-hover: $blue,
-  code: $blue-dark,
+  code: $blue-dark
 );
 
 $theme-orange: (
@@ -160,7 +159,7 @@ $theme-orange: (
   text: $white,
   text-accent: $orange,
   link-hover: $orange,
-  code: $orange-dark,
+  code: $orange-dark
 );
 
 $theme-magenta: (
@@ -178,9 +177,8 @@ $theme-magenta: (
   text: $night,
   text-accent: $magenta,
   link-hover: $magenta,
-  code: $magenta,
+  code: $magenta
 );
-
 
 @include define-theme("black", $theme-black);
 @include define-theme("blue", $theme-blue);
@@ -191,6 +189,3 @@ $theme-magenta: (
 @include define-theme("red", $theme-red);
 @include define-theme("yellow", $theme-yellow);
 @include define-theme("magenta", $theme-magenta);
-
-
-

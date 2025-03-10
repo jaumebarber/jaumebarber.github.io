@@ -7,7 +7,6 @@ page_id: about
 permalink: chi-sono
 ---
 
-
 <h2 class="section print-only"><i class="fa-solid fa-user"></i> Ciao!</h2>
 Sono un ingegnere software full stack e vivo a València. Qualche anno fa ho deciso di dare una svolta professionale (e vitale) e ho imparato a programmare in React, ma presto ho iniziato ad andare oltre. Oggi mi diverto molto con Python, Go, Typescript... qualsiasi cosa in realtà. Conosco anche in prima persona la grande <del>verbosità</del> risposta e utilità di Java.
 
@@ -46,7 +45,6 @@ _Giugno, 2021 -- Gennaio, 2023_\\
 
 _Maggio, 2018 -- Maggio, 2019_\\
 **lavorato per un anno come tecnico del commercio internazionale a Milano**, e se il giornalismo non vi incastrava, immagina questo... ma vabbè, è sempre bello provare delle cose nuove, no? Inoltre, ho degli ottimi riferimenti.
-
 
 <h2 class="section"><i class="fa-solid fa-signs-post"></i> Fuori dallo schermo mi trovate</h2>
 

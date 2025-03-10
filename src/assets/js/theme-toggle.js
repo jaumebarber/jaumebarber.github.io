@@ -5,22 +5,22 @@
   };
 
   const TRANSLATIONS = {
-    'en': {
-      dark: 'Dark Mode',
-      light: 'Light Mode'
+    en: {
+      dark: "Dark Mode",
+      light: "Light Mode",
     },
-    'ca': {
-      dark: 'Mode fosc',
-      light: 'Mode clar'
+    ca: {
+      dark: "Mode fosc",
+      light: "Mode clar",
     },
-    'es': {
-      dark: 'Modo oscuro',
-      light: 'Modo claro'
+    es: {
+      dark: "Modo oscuro",
+      light: "Modo claro",
     },
-    'it': {
-      dark: 'Modo scuro',
-      light: 'Modo chiaro'
-    }
+    it: {
+      dark: "Modo scuro",
+      light: "Modo chiaro",
+    },
   };
 
   function getRandomTheme(mode) {
@@ -29,10 +29,9 @@
     return themes[randomIndex];
   }
 
-  
   function getLocalizedText(mode) {
-    const lang = document.documentElement.lang || 'en';
-    const translations = TRANSLATIONS[lang] || TRANSLATIONS['en'];
+    const lang = document.documentElement.lang || "en";
+    const translations = TRANSLATIONS[lang] || TRANSLATIONS["en"];
     return translations[mode];
   }
 
@@ -59,7 +58,7 @@
     const toggle = document.querySelector("#theme-toggle");
     if (toggle) {
       toggle.setAttribute("aria-label", preference);
-      const nextMode = preference === 'dark' ? 'light' : 'dark';
+      const nextMode = preference === "dark" ? "light" : "dark";
       toggle.setAttribute("title", getLocalizedText(nextMode));
     }
 

@@ -2,46 +2,46 @@
 ca:
   date:
     abbr_day_names:
-    - dg.
-    - dl.
-    - dt.
-    - dc.
-    - dj.
-    - dv.
-    - ds.
+      - dg.
+      - dl.
+      - dt.
+      - dc.
+      - dj.
+      - dv.
+      - ds.
     abbr_month_names:
-    - 
-    - gen
-    - feb
-    - mar
-    - abr
-    - mai
-    - jun
-    - jul
-    - ago
-    - set
-    - oct
-    - nov
-    - des
+      -
+      - gen
+      - feb
+      - mar
+      - abr
+      - mai
+      - jun
+      - jul
+      - ago
+      - set
+      - oct
+      - nov
+      - des
     day_names:
-    - diumenge
-    - dilluns
-    - dimarts
-    - dimecres
-    - dijous
-    - divendres
-    - dissabte
+      - diumenge
+      - dilluns
+      - dimarts
+      - dimecres
+      - dijous
+      - divendres
+      - dissabte
     month_names:
-    - 
-    - gener
-    - febrer
-    - març
-    - abril
-    - maig
-    - juny
-    - juliol
-    - agost
-    - setembre
-    - octubre
-    - novembre
-    - desembre
+      -
+      - gener
+      - febrer
+      - març
+      - abril
+      - maig
+      - juny
+      - juliol
+      - agost
+      - setembre
+      - octubre
+      - novembre
+      - desembre

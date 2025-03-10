@@ -12,7 +12,6 @@ Sóc un enginyer de software full stack i visc a València. Fa uns anys vaig dec
 
 M'encanta la cultura DevOps, i gaudisc prou treballant amb contenidors, Terraform --bé, qualsevol IaC en realitat--. Però sobretot em flipa el món fascinant i totpoderós de la criptografia. Comptat i debatut, estime els ordinadors i alguna que altra vegada ells em corresponen.
 
-
 <h2 class="section"><i class="fa-solid fa-briefcase"></i> Ara mateix treballe com a</h2>
 _Juliol, 2024 -- Avui al matí_\\
 **Enginyer DevOps a [Alten](https://alten.es)**, que consisteix a desenvolupar i mantenir una plataforma de llac de dades sobre AWS Glue, Lambdas, CloudFormation, i això i el de més enllà, la veritat és que és un gran castell ;). La meua feina allà implica desenvolupament full stack, sobretot en Python i Angular, suport al client i optimització del producte.

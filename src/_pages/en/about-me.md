@@ -16,7 +16,6 @@ Big DevOps fan, I enjoy working with containers, Terraform -- or IaC more precis
 _July, 2024 -- This very morning_\\
 **DevOps Engineer at [Alten](https://alten.es)**, which entails development and maintenance of a datalake platform built upon AWS Glue, Lambdas, CloudFormation, and so on and so forth, big castle really, trust me ;). My job there includes full stack development, mostly in Python and Angular, client support and product optimisation.
 
-
 <h2 class="section"><i class="fa-solid fa-backwards"></i> Before that, I was</h2>
 _June, 2021 -- January, 2023_\\
 **Systems Lead at [Eventscase](https://eventscase.com)**, where I terraformed, or ansibled every AWS service in use. Before that, I contributed to the containerization of the product. And setting up dev and testing envs. And then there's the whole daily maintenance and management...
@@ -39,7 +38,6 @@ _September, 2009 -- June, 2010_\\
 
 _September, 2006 -- June, 2012_\\
 **studying Journalism at Universitat de València**, which is not very relevant for an IT resume but quite original for a contrast, isn't it? Actually, I'm kinda proud of it, I wouldn't change it for a moment and it's unlocked me the power of creative writing to, humm just write this, hope it's enough.
-
 
 <h2 class="section"><i class="fa-solid fa-star-of-life"></i> And I've also</h2>
 _June, 2021 -- January, 2023_\\
