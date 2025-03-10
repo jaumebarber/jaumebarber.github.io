@@ -1,10 +1,10 @@
 {% assign lang = site.active_lang %}
 <header class="px-2 header-sticky flex navigation">
-  <div class="left py-1 mt-1 mt-lg-0">
+  <div class="left py-1 mt-lg-0">
     <a class="link-primary text-accent" id="greet" href="{{ site.baseurl }}/">{{ site.data[lang].greet }}, {{ site.user_name }}</a>
   </div>
   <nav class="right py-1 mt-1 mt-lg-0">
-    <ul class="list-reset right py-1 header-text font-smoothing mt-lg-1 mb-2 mb-lg-1">
+    <ul class="list-reset mt-1 right py-1 header-text font-smoothing mt-lg-1 mb-2 mb-lg-1">
       {% assign sorted_pages = site.pages | sort: 'order' %}
       {% for page in sorted_pages %}
         {% if page.title and page.permalink != '/404' and page.lang == lang %}
