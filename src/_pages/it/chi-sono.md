@@ -8,7 +8,7 @@ permalink: chi-sono
 ---
 
 <h2 class="section print-only"><i class="fa-solid fa-user"></i> Ciao!</h2>
-Sono un ingegnere software full stack e vivo a València. Qualche anno fa ho deciso di dare una svolta professionale (e vitale) e ho imparato a programmare in React, ma presto ho iniziato ad andare oltre. Oggi mi diverto molto con Python, Go, Typescript... qualsiasi cosa in realtà. Conosco anche in prima persona la grande <del>verbosità</del> risposta e utilità di Java.
+Sono un ingegnere software DevOps e full stack e vivo a València. Qualche anno fa ho deciso di dare una svolta professionale (e vitale) e ho imparato a programmare in React, ma presto ho iniziato ad andare oltre. Oggi mi diverto molto con Python, Go, Typescript... qualsiasi cosa in realtà. Conosco anche in prima persona la grande <del>verbosità</del> risposta e utilità di Java.
 
 Adoro la cultura DevOps e mi diverto un mondo a lavorare con i container, Terraform --qualsiasi IaC in realtà--. Ma soprattutto impazzisco per l'affascinante e onnipotente mondo della crittografia. In poche parole, amo i computer e qualche volta loro mi ricambiano.
 

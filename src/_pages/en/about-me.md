@@ -8,7 +8,7 @@ permalink: about
 ---
 
 <h2 class="section print-only"><i class="fa-solid fa-user"></i> Hi!</h2>
-I'm a full stack software engineer based in beautiful and sunny València. I made a career turn some years ago and learnt to program in React but soon enough I found myself digging deeper. These days I pretty much enjoy Python, Go, TypeScript... you name it. I am also familiar with Java's <del>verbosity</del> performance and usefulness.
+I'm a DevOps and full stack software engineer based in beautiful and sunny València. I made a career turn some years ago and learnt to program in React but soon enough I found myself digging deeper. These days I pretty much enjoy Python, Go, TypeScript... you name it. I am also familiar with Java's <del>verbosity</del> performance and usefulness.
 
 Big DevOps fan, I enjoy working with containers, Terraform -- or IaC more precisely -- and I'm crazy about the great and mighty world of cryptography. In a nutshell, I love computers and they sometimes reciprocate.
 

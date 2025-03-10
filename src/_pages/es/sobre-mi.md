@@ -8,7 +8,7 @@ permalink: sobre-mi
 ---
 
 <h2 class="section print-only"><i class="fa-solid fa-user"></i> Hola!</h2>
-Soy un ingeniero de software full stack y vivo en València. Hace unos años decidí dar giro profesional (y vital) y aprendí a programar en React, pero pronto empecé a ir más allá. Hoy en día me divierto mucho con Python, Go, Typescript... lo que sea en realidad. También sé de primera mano de la gran <del>verbosidad</del> respuesta y utilidad de Java.
+Soy un ingeniero de software DevOps y full stack y vivo en València. Hace unos años decidí dar giro profesional (y vital) y aprendí a programar en React, pero pronto empecé a ir más allá. Hoy en día me divierto mucho con Python, Go, Typescript... lo que sea en realidad. También sé de primera mano de la gran <del>verbosidad</del> respuesta y utilidad de Java.
 
 Me encanta la cultura DevOps y me lo paso en grande trabajando con contenedores, Terraform --cualquier IaC en realidad--. Pero sobre todo me vuelve loco el fascinante y todopoderoso mundo de la criptografía. En pocas palabras, amo los ordenadores y alguna que otra vez ellos me corresponden.
 
