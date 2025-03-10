@@ -1,11 +1,37 @@
 # use this file to store info that does not require localization
-phone: +41 44 123 4567
-address: Uhrstraße, 12, 8032 Zürich
-email: augusta@chronotempus.ch
-links:
-  - name: chronotempus.ch
-    url: https://chronotempus.ch
-  - name: linkedin.com/in/chronotempus
-    url: https://linkedin.com/in/chronotempus
-  - name: github.com/chronotempus
-    url: https://github.com/chronotempus
+phone: +34 699 981 561
+address: València
+stack:
+  items:
+    - name: Docker
+      level: 9
+    - name: Kubernetes
+      level: 7
+    - name: OpenShift
+      level: 7
+    - name: Terraform
+      level: 9
+    - name: Ansible
+      level: 7
+    - name: AWS
+      level: 7
+    - name: Linux
+      level: 9
+    - name: SQL
+      level: 6
+    - name: MongoDB
+      level: 6
+    - name: JS/TS
+      level: 8
+    - name: React
+      level: 8
+    - name: Angular
+      level: 8
+    - name: Bash
+      level: 6
+    - name: Python
+      level: 6
+    - name: Go
+      level: 6
+    - name: HTML & CSS
+      level: 9

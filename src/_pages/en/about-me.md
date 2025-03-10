@@ -1,59 +1,57 @@
 ---
-title: About me
-headline: Augusta Tempus
+headline: salutes you!
+title: About
 lang: en
 layout: about
-order: 1
-page_id: about-me
-permalink: about-me
+page_id: about
+permalink: about
 ---
-<h2 class="section print-only"><i class="fa-solid fa-user"></i> Professional Profile</h2>
-A master watchmaker with a passion for precision in all its forms, whether in the intricate dance of horological mechanics, the aerial ballet of helicopter flight, or the logical elegance of language design. 
 
-For over 25 years, I've dedicated myself to the craft of watchmaking, blending traditional Swiss techniques with innovative, bespoke engineering.  My skills extend beyond the workshop to the skies, where I spend a month each year piloting helicopters, and to the realm of linguistic creation, where I've developed *Lingua Tempus*, a unique programming language rooted in Latin grammar.
+<h2 class="section print-only"><i class="fa-solid fa-user"></i> Hi!</h2>
+I'm a full stack software engineer based in beautiful and sunny València. I made a career turn some years ago and learnt to program in React but soon enough I found myself digging deeper. These days I pretty much enjoy Python, Go, TypeScript... you name it. I am also familiar with Java's <del>verbosity</del> performance and usefulness.
 
-<h2 class="section"><i class="fa-solid fa-briefcase"></i> Work Experience</h2>
-_July, 1998 -- this very morning_\\
-**Chief Horologist - Tempus Precision Watches (Self-Employed)**
+Big DevOps fan, I enjoy working with containers, Terraform -- or IaC more precisely -- and I'm crazy about the great and mighty world of cryptography. In a nutshell, I love computers and they sometimes reciprocate.
 
-*   Established a bespoke watchmaking atelier, specializing in handcrafted mechanical timepieces.
-*   Designed and built over 50 unique, high-complication watches for private collectors.
-*   Developed innovative solutions for improving accuracy and longevity of mechanical movements.
-*   Provided expert watch repair and restoration services for antique and modern timepieces.
-* Created the brand identity and the marketing strategies.
-  
-_Seasonal, 1 Month/Year, 2005 -- right now_\\
-**Freelance Helicopter Pilot - Alpine Air Adventures**
--   Conduct mountain tour flights for tourists in the Swiss Alps.
--   Perform specialized aerial photography and observation missions.
--   Maintain the highest standards of safety and operational protocol.
--   Provide flight instruction and mentorship to junior pilots.
+<h2 class="section"><i class="fa-solid fa-briefcase"></i> I'm now working as a</h2>
+_July, 2024 -- This very morning_\\
+**DevOps Engineer at [Alten](https://alten.es)**, which entails development and maintenance of a datalake platform built upon AWS Glue, Lambdas, CloudFormation, and so on and so forth, big castle really, trust me ;). My job there includes full stack development, mostly in Python and Angular, client support and product optimisation.
 
-_Personal Project, 2010 -- today and counting_\\
-**Creator of *Lingua Tempus***
 
--   Developed a functional, Latin-based programming language.
--   Designed a unique syntax and grammar structure for *Lingua Tempus*, blending ancient logic with modern computational principles.
-- Developed a basic interpreter, able to parse and run simple algorithms in *Lingua Tempus*.
+<h2 class="section"><i class="fa-solid fa-backwards"></i> Before that, I was</h2>
+_June, 2021 -- January, 2023_\\
+**Systems Lead at [Eventscase](https://eventscase.com)**, where I terraformed, or ansibled every AWS service in use. Before that, I contributed to the containerization of the product. And setting up dev and testing envs. And then there's the whole daily maintenance and management...
 
-<h2 class="section"><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+_July, 2019 -- May, 2021_\\
+**Software Developer at [GFT](https://gft.com)**, as a junior, but I made my very best with Angular, then React, then eventually started leaning towards ops stuff: pipeline management, containers, scripting, managing Java microservices in OpenShift. Good ol' times, they promoted me.
 
--   **Swiss School of Watchmaking** - Master Watchmaker Certification (1998)
--   **Swiss Aviation Academy** - Commercial Helicopter Pilot License (2004)
-- **Self taught** - *Lingua Tempus* design and implementation.
+<h2 class="section"><i class="fa-solid fa-graduation-cap"></i> My education includes</h2>
+_November, 2018 -- June, 2019_\\
+**attending Run '18 at [Devscola](https://devscola.org)**, a full stack 6-month bootcamp designed collectively by a community of active devs with a special focus on best practices. We covered TDD, XP, SOLID principles, and all agile stuff, both theoretically and in practice. We built project [Rekaizen](https://devscola.gitlab.io/rekaizen/app) and had fun while doing so.
 
-<h2 class="section"><i class="fa-solid fa-trophy"></i> Awards & Recognition</h2>
--   **"Golden Balance Wheel" Award** - Swiss Watchmakers Guild, for "Innovation in Complication Design" (2012).
--   **"Sky Master" Award** - Alpine Air Adventures, for "Exemplary Safety and Professionalism" (2018, 2022).
-- Invitation to talk about *Lingua Tempus* in the *International Linguistic Congress* in Bern (2020).
+_October, 2014_\\
+**getting a Certificato di Lingua Italiana (C1)** from Università di Perugia.
 
-<h2 class="section"><i class="fa-solid fa-flask"></i> Projects</h2>
-- **The Astrolabe Tourbillon:** A self-designed, highly complicated watch that displays lunar phases, celestial movements and timezones.
-- **The Alpine Lynx:** A custom helicopter design for maximum performance and efficiency in the Swiss Alps.
-- **Lingua Tempus:** A programming language rooted in Latin, with a focus on clarity, precision, and logical flow. The code looks like poetry.
+_February, 2013_\\
+**and a Certificate of Proficiency in English (C2)** from University of Cambridge.
 
-<h2 class="section"><i class="fa-solid fa-mountain-sun"></i> Personal Interests</h2>
--   Hiking and mountaineering in the Swiss Alps
--   Classic Latin literature and philosophy
--   Antique clock and watch restoration
--   Linguistics and language design
+_September, 2009 -- June, 2010_\\
+**going off the hook, like every other Erasmus student in Bologna**, Italy... well, you know, I also toured much of the country.
+
+_September, 2006 -- June, 2012_\\
+**studying Journalism at Universitat de València**, which is not very relevant for an IT resume but quite original for a contrast, isn't it? Actually, I'm kinda proud of it, I wouldn't change it for a moment and it's unlocked me the power of creative writing to, humm just write this, hope it's enough.
+
+
+<h2 class="section"><i class="fa-solid fa-star-of-life"></i> And I've also</h2>
+_June, 2021 -- January, 2023_\\
+**started and closed my own company, named Cloudfights**, for side projects and with the aim to explore the corporate way of life together with some colleagues. It's always nice to give a try to your little inner tycoon, but in the end you might want to code instead of... do bureaucracy.
+
+_May, 2018 -- May, 2019_\\
+**worked for a year as an International Trade consultant in Milan**, Italy. Yeah, not the kind of IT you were expecting, but I'm sure you didn't see that coming.
+
+<h2 class="section"><i class="fa-solid fa-signs-post"></i> Lastly, when offscreen I'm</h2>
+- an unguilty language lover and learner
+- a wannabe group traveller with no group to travel with
+- unsuccessfully trying to learn to play the guitar
+- a decade-old terrible FIFA game player
+- reading, reading, reading
+- probably hanging out with my friends <del>at a bar</del> somewhere

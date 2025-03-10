@@ -56,7 +56,7 @@ You'll find the translations currently in use in `_data` folder. Lastly, we're u
 This theme has been designed with the utmost desire of being faithful to it's original counterpart, albeit upgraded to modern standards not only in terms of dependencies but also tastes. 
 That's why we've put an amazing animation button to toggle between Dark and Light modes (thank you [web.dev](https://web.dev/patterns/theming/theme-switch) for it!). 
 
-Each time you press it, you'll not only be toggling from light to dark or vice versa, but also randomly changing between most of broccolini's designs for the Swiss theme. We've only discarded gray for a fresh alternative (we didn't like it ;P) and severely tweaked blue. The rest is kept as is, only adapting to the light/dark schemes. 
+Each time you press it, you'll not only be toggling from light to dark or vice versa, but also randomly changing between most of hipervincle's designs for the Swiss theme. We've only discarded gray for a fresh alternative (we didn't like it ;P) and severely tweaked blue. The rest is kept as is, only adapting to the light/dark schemes. 
 
 |                                                                                                                                          |                                                                                                                                          |
 |:-----------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|

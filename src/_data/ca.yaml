@@ -1,46 +1,24 @@
-title: Helvetic Resume
-description: Un tema tipogràfic audaç inspirat pel disseny suís.
+title: Hola, sóc Jaume Barber!
+description: Enginyer DevOps i Desenvolupador de Software
+greet: Hola
 previous: Anterior
 next: Següent
 print: Imprimeix
-job: Rellotgera, Pilot, Programadora
 contact: Contacte
 links: Enllaços
-watchmaking:
-  title: Rellotgeria
-  skills:
-    - name: Haute Horlogerie
+stack:
+  title: L'stack que utilitze
+langs_graph:
+  title: I parle
+  langs:
+    - name: Anglés
       level: 12
-    - name: Disseny de complicacions
-      level: 11
-    - name: Temps de precisió
+    - name: Italià
       level: 12
-    - name: Micro-mecànica
-      level: 10
-    - name: Restauració
-      level: 9
-flying:
-  title: Aeronàutica
-  skills:
-    - name: Pilot d'helicòpter (VFR)
-      level: 11
-    - name: Plans de vol
-      level: 10
-    - name: Procediments d'emergència
-      level: 12
-    - name: Vol de muntanya
-      level: 9
-programming:
-  title: Lingüística
-  skills:
-    - name: Disseny de llenguatges
-      level: 12
-    - name: Desenvolupament de compilador (pdc)
-      level: 8
-    - name: Sintàxi i semàntica
-      level: 11
-    - name: Lògica algorísmica
-      level: 9
+    - name: Francés
+      level: 7
+    - name: Alemany
+      level: 6
 footer:
-  attribution: Desenvolupat sobre el tema <a href="https://github.com/broccolini/swiss" target="_blank">swiss</a> de la gran <a href="https://github.com/broccolini" target="_blank">broccolini</a>.
+  attribution: Desenvolupat sobre el tema <a href="https://github.com/hipervincle/helvetic-resume" target="_blank">Helvetic Resume</a> d' <a href="https://github.com/hipervincle" target="_blank">Hipervincle</a>.
   bluesky: Publica a

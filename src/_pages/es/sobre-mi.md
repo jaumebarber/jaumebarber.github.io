@@ -1,60 +1,57 @@
 ---
+headline: os saluda!
 title: Sobre mí
-headline: Augusta Tempus
 lang: es
 layout: about
-order: 1
-page_id: about-me
+page_id: about
 permalink: sobre-mi
 ---
 
-<h2 class="section print-only"><i class="fa-solid fa-user"></i> Perfil profesional</h2>
-Una maestra relojera con una pasión por la precisión en todas sus formas, ya sea en la intrincada danza de la mecánica horológica, el ballet aéreo del vuelo en helicóptero, o la elegancia lógica del diseño de lenguajes.
 
-Durante más de 25 años, me he dedicado al oficio de la relojería, combinando técnicas tradicionales suizas con ingeniería innovadora y personalizada. Mis habilidades van más allá del taller hasta los cielos, donde paso un mes cada año pilotando helicópteros, y hasta el mundo de la creación lingüística, donde he desarrollado _Lingua Tempus_, un lenguaje de programación único basado en la gramática latina.
+<h2 class="section print-only"><i class="fa-solid fa-user"></i> Hola!</h2>
+Soy un ingeniero de software full stack y vivo en València. Hace unos años decidí dar giro profesional (y vital) y aprendí a programar en React, pero pronto empecé a ir más allá. Hoy en día me divierto mucho con Python, Go, Typescript... lo que sea en realidad. También sé de primera mano de la gran <del>verbosidad</del> respuesta y utilidad de Java.
 
-<h2 class="section"><i class="fa-solid fa-briefcase"></i> Experiencia profesional</h2>
-_Julio, 1998 -- esta misma mañana_\\
-**Relojera jefe - Tempus Precision Watches (Autónomo)**
+Me encanta la cultura DevOps y me lo paso en grande trabajando con contenedores, Terraform --cualquier IaC en realidad--. Pero sobre todo me vuelve loco el fascinante y todopoderoso mundo de la criptografía. En pocas palabras, amo los ordenadores y alguna que otra vez ellos me corresponden.
 
-- Establecí un taller de relojería personalizado, especializado en relojes mecánicos hechos a mano.
-- Diseñé y construí más de 50 relojes únicos y de alta complicación para coleccionistas privados.
-- Desarrollé soluciones innovadoras para mejorar la precisión y la longevidad de los movimientos mecánicos.
-- Proporcioné servicios expertos de reparación y restauración de relojes antiguos y modernos.
-- Creé la identidad de la marca y las estrategias de marketing.
 
-_Estacional, 1 mes/año, 2005 -- hasta la fecha_\\
-**Piloto de helicóptero freelance - Alpine Air Adventures**
+<h2 class="section"><i class="fa-solid fa-briefcase"></i> Ahora trabajo de</h2>
+_Julio, 2024 -- Esta misma mañana_\\
+**Ingeniero DevOps en [Alten](https://alten.es)**, que consiste en desarrollar y mantener una plataforma de lago de datos sobre AWS Glue, Lambdas, CloudFormation, y tal y tal, la verdad es que es un gran castillo ;). Mi trabajo aquí implica desarrollo full stack, sobre todo en Python y Angular, soporte al cliente y optimización del producto.
 
-- Realizo vuelos turísticos para turistas en los Alpes Suizos.
-- Realizo misiones especializadas de fotografía aérea y observación.
-- Mantengo los más altos estándares de seguridad y protocolo operativo.
-- Proporciono instrucción de vuelo y mentoría a pilotos jóvenes.
+<h2 class="section"><i class="fa-solid fa-backwards"></i> Abans era</h2>
+_Junio, 2021 -- Enero, 2023_\\
+**Lead de Sistemas en [Eventscase](https://eventscase.com)**, donde terraformé, o ansibilicé todos los servicios de AWS que utilizábamos. Antes de esto participé en la contenedorización de la plataforma. Y a montar entornos de desarrollo y de pruebas. Y luego está el mantenimiento diario, la gestión de la plataforma...
 
-_Proyecto personal, 2010 -- hoy y contando_\\
-**Creadora de _Lingua Tempus_**
+_Julio, 2019 -- Mayo, 2021_\\
+**Desarrollador de software en [GFT](https://gft.com)**, como junior, pero me se me dio bastante bien con Angular, luego React, después poco a poco empecé a adentrarme en cosas de operaciones (ops): gestión de pipelines, contendores, scripting, gestión de microservicios Java desplegados en OpenShift, etc. Buenos tiempos, me ascendieron.
 
-- Desarrollé un lenguaje de programación funcional basado en el latín.
-- Diseñé una sintaxis única y una estructura gramatical para _Lingua Tempus_, combinando lógica antigua con principios computacionales modernos.
-- Desarrollé un intérprete básico capaz de analizar y ejecutar algoritmos simples en _Lingua Tempus_.
+<h2 class="section"><i class="fa-solid fa-graduation-cap"></i> Mi educación incluye</h2>
+_Noviembre, 2018 -- Junio, 2019_\\
+**haber cursado el Run 18 en [Devscola](https://devscola.org)**, un bootcamp full stack de seis meses diseñado colectivamente por una comunidad de desarrolladores en activo, especialmente enfocado en buenas prácticas. Aprendimos TDD, XP, principios SOLID y agile, tanto a nivel teórico como en la práctica. Nos lo pasamos en grande desarrollando el proyecto [Rekaizen](https://devscola.gitlab.io/rekaizen/app).
 
-<h2 class="section"><i class="fa-solid fa-graduation-cap"></i> Educación</h2>
-- **Escuela Suiza de Relojería** - Certificación de Maestro Relojero (1998)
-- **Academia Suiza de Aviación** - Licencia de Piloto Comercial de Helicóptero (2004)
-- **Autodidacta** - Diseño e implementación de *Lingua Tempus*.
+_Octubre, 2014_\\
+**haber obtenido el Certificato di Lingua Italiana (C1)** en la Università di Perugia.
 
-<h2 class="section"><i class="fa-solid fa-trophy"></i> Premios y reconocimentos</h2>
-- **Premio "Rueda de Equilibrio Dorada"** - Gremio de Relojeros Suizos, por "Innovación en el Diseño de Complicaciones" (2012).
-- **Premio "Maestro del Cielo"** - Alpine Air Adventures, por "Seguridad y Profesionalismo Ejemplar" (2018, 2022).
-- Invitación para hablar sobre *Lingua Tempus* en el *Congreso Internacional de Lingüística* en Berna (2020).
+_Febrero, 2013_\\
+**y el Certificate of Proficiency in English (C2)** en la University of Cambridge.
 
-<h2 class="section"><i class="fa-solid fa-flask"></i> Proyectos</h2>
-- **El Astrolabio Tourbillon :** Un reloj diseñado por mí misma, con alta complicación, que muestra las fases lunares, los movimientos celestes y las zonas horarias.
-- **El Lince Alpino:** Un diseño personalizado de helicóptero para máximo rendimiento y eficiencia en los Alpes Suizos.
-- **Lingua Tempus:** Un lenguaje de programación basado en el latín, con un enfoque en la claridad, precisión y flujo lógico. El código parece poesía.
+_Septiembre, 2009 -- Junio, 2010_\\
+**haber desfasado, como todo estudiante de Erasmus en Bolonia**... bueno, yo qué sé, también recorrí gran parte del país.
 
-<h2 class="section"><i class="fa-solid fa-mountain-sun"></i> Intereses personales</h2>
-- Senderismo y montañismo en los Alpes Suizos
-- Literatura y filosofía clásica latina
-- Restauración de relojes y relojes antiguos
-- Lingüística y diseño de lenguajes
+_Septiembre, 2006 -- Junio, 2012_\\
+**haber estudiado Periodismo en la Universitat de València**. Ya, no pega mucho con un currículum IT, pero es original como contraste, ¿no? De hecho, estoy bastante orgulloso y en absoluto lo cambiaría. Me ha aportado un cierto nivel de escritura creativa para... bueno, para escribir esta cosa, espero que sea suficiente.
+
+<h2 class="section"><i class="fa-solid fa-star-of-life"></i> También he</h2>
+_Junio, 2021 -- Enero, 2023_\\
+**abierto y cerrado mi propia empresa, que se llamaba Cloudfights**, para hacer proyectos complementarios y explorar un poco el lado corporativo de la vida con unos colegas. Siempre está bien dar una oportunidad al magnate que llevas dentro, pero al final puede que prefieras programar en vez de... hacer burocracia. En fin, ahí quedó mi primer intento de "fracasa más, fracasa mejor" xD.
+
+_Mayo, 2018 -- Mayo, 2019_\\
+**trabajado un año como técnico de comercio internacional en Milán**. Si lo de periodismo no encajaba, imagínate esto... pero bueno, siempre está bien probar cosas ¿no? Además, tengo excelentes referencias.
+
+<h2 class="section"><i class="fa-solid fa-signs-post"></i> Fuera de pantalla me encontraréis</h2>
+- aprendiendo algún idioma nuevo
+- ideando viajes en grupo sin grupo con el que viajar
+- intentando tocar la guitarra sin éxito
+- siendo el peor jugador de FIFA que te puedas echar a la cara
+- leyendo, leyendo, leyendo
+- muy probabablemente con mis amigos <del>de fiesta</del> en una terraza

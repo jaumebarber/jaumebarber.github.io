@@ -6,6 +6,9 @@ $breakpoint-lg: 1440px;
 $breakpoint-md: 1080px;
 $breakpoint-sm: 768px;
 $breakpoint-xs: 480px;
+#greet {
+  font-size: 1.5em;
+}
 
 .h0 {
   font-size: var(--h0-mobile);

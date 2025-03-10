@@ -1,58 +1,58 @@
 ---
+headline: vi saluta!
 title: Chi sono
-headline: Augusta Tempus
 lang: it
 layout: about
-order: 1
-page_id: about-me
+page_id: about
 permalink: chi-sono
 ---
-<h2 class="section print-only"><i class="fa-solid fa-user"></i> Profilo professionale</h2>
-Una maestro orologiaio con una passione per la precisione in tutte le sue forme, sia nella danza intricata della meccanica orologiera, nel balletto aereo del volo in elicottero o nell'eleganza logica del design dei linguaggi.
 
-Da oltre 25 anni mi dedico all'arte dell'orologeria, combinando le tecniche tradizionali svizzere con un'innovativa ingegneria su misura. Le mie competenze si estendono oltre l'officina fino ai cieli, dove passo un mese all'anno pilotando elicotteri, e al mondo della creazione linguistica, dove ho sviluppato *Lingua Tempus*, un linguaggio di programmazione unico basato sulla grammatica latina.
 
-<h2 class="section"><i class="fa-solid fa-briefcase"></i> Esperienza professionale</h2>
-_Luglio, 1998 -- questa stessa mattina_\\
-**Orologiaio capo - Tempus Precision Watches (Autonomo)**
+<h2 class="section print-only"><i class="fa-solid fa-user"></i> Ciao!</h2>
+Sono un ingegnere software full stack e vivo a València. Qualche anno fa ho deciso di dare una svolta professionale (e vitale) e ho imparato a programmare in React, ma presto ho iniziato ad andare oltre. Oggi mi diverto molto con Python, Go, Typescript... qualsiasi cosa in realtà. Conosco anche in prima persona la grande <del>verbosità</del> risposta e utilità di Java.
 
-- Ho fondato un atelier di orologeria su misura, specializzato in orologi meccanici fatti a mano.
-- Ho progettato e costruito oltre 50 orologi unici e altamente complicati per collezionisti privati.
-- Ho sviluppato soluzioni innovative per migliorare la precisione e la durata dei movimenti meccanici.
-- Ho fornito servizi esperti di riparazione e restauro di orologi antichi e moderni.
-- Ho creato l'identità del marchio e le strategie di marketing.
-  
-_Stagionale, 1 mese/anno, 2005 -- fino ad oggi_\\
-**Pilota di elicottero freelance - Alpine Air Adventures**
-- Conduco voli turistici sulle Alpi Svizzere.
-- Eseguo missioni specializzate di fotografia aerea e osservazione.
-- Mantengo i più alti standard di sicurezza e protocollo operativo.
-- Offro istruzione di volo e mentorship a piloti junior.
+Adoro la cultura DevOps e mi diverto un mondo a lavorare con i container, Terraform --qualsiasi IaC in realtà--. Ma soprattutto impazzisco per l'affascinante e onnipotente mondo della crittografia. In poche parole, amo i computer e qualche volta loro mi ricambiano.
 
-_Progetto personale, 2010 -- oggi e oltre_\\
-**Creatore di *Lingua Tempus***
+<h2 class="section"><i class="fa-solid fa-briefcase"></i> Attualmente lavoro come</h2>
+_Luglio, 2024 -- Stamattina_\\
+**Ingegnere DevOps presso [Alten](https://alten.es)**, che consiste nello sviluppare e sopportare una piattaforma data lake su AWS Glue, Lambda, CloudFormation, e così via, in realtà è un grande castello, fidatevi ;). Il mio lavoro qui implica sviluppo full stack, soprattutto in Python e Angular, supporto al cliente e ottimizzazione del prodotto.
 
-- Ho sviluppato un linguaggio di programmazione funzionale basato sul latino.
-- Ho progettato una sintassi unica e una struttura grammaticale per *Lingua Tempus*, fondendo logica antica e principi computazionali moderni.
-- Ho sviluppato un interprete base capace di analizzare ed eseguire semplici algoritmi in *Lingua Tempus*.
+<h2 class="section"><i class="fa-solid fa-backwards"></i> Una volta ero</h2>
+_Giugno, 2021 -- Gennaio, 2023_\\
+**Lead dei Sistemi presso [Eventscase](https://eventscase.com)**, dove ho terraformato o ansibilizzato tutti i servizi AWS che utilizzavamo. Prima di questo ho partecipato alla containerizzazione della piattaforma. E a montare ambienti di sviluppo e di test. E poi c'è la manutenzione quotidiana, la gestione della piattaforma...
 
-<h2 class="section"><i class="fa-solid fa-graduation-cap"></i> Istruzione</h2>
-- **Scuola Svizzera di Orologeria** - Certificazione di Maestro Orologiaio (1998)
-- **Accademia Svizzera di Aviazione** - Licenza di Pilota Commerciale di Elicottero (2004)
-- **Autodidatta** - Progettazione e implementazione di *Lingua Tempus*.
+_Luglio, 2019 -- Maggio, 2021_\\
+**Sviluppatore software presso [GFT](https://gft.com)**, come junior, ma me la sono cavata piuttosto bene con Angular, poi React, dopo poco a poco ho iniziato ad addentrarmi nelle cose di operations (ops): gestione delle pipeline, container, scripting, gestione di microservizi Java distribuiti su OpenShift, ecc. Bei tempi, mi hanno promosso.
 
-<h2 class="section"><i class="fa-solid fa-trophy"></i> Premi e riconoscimenti</h2>
-- **Premio "Ruota di Bilanciamento d'Oro"** - Gilda degli Orologiai Svizzeri, per "Innovazione nel Design delle Complicazioni" (2012).
-- **Premio "Maestro dei Cieli"** - Alpine Air Adventures, per "Eccellenza nella Sicurezza e Professionalità" (2018, 2022).
-- Invito a parlare di *Lingua Tempus* al *Congresso Internazionale di Linguistica* a Berna (2020).
+<h2 class="section"><i class="fa-solid fa-graduation-cap"></i> La mia formazione include</h2>
+_Novembre, 2018 -- Giugno, 2019_\\
+**aver frequentato il Run 18 presso [Devscola](https://devscola.org)**, un bootcamp full stack di sei mesi progettato collettivamente da una comunità di sviluppatori attivi, particolarmente focalizzato sulle buone pratiche. Abbiamo imparato TDD, XP, principi SOLID e agile, sia a livello teorico che pratico. Ci siamo divertiti un sacco sviluppando il progetto [Rekaizen](https://devscola.gitlab.io/rekaizen/app).
 
-<h2 class="section"><i class="fa-solid fa-flask"></i> Progetti</h2>
-- **L'Astrolabio Tourbillon:** Un orologio di mia progettazione, altamente complicato, che mostra le fasi lunari, i movimenti celesti e i fusi orari.
-- **La Lince Alpina:** Un design di elicottero personalizzato per massime prestazioni ed efficienza nelle Alpi Svizzere.
-- **Lingua Tempus:** Un linguaggio di programmazione basato sul latino, focalizzato su chiarezza, precisione e logica. Il codice sembra poesia.
+_Ottobre, 2014_\\
+**aver ottenuto il Certificato di Lingua Italiana (C1)** dall'Università di Perugia.
 
-<h2 class="section"><i class="fa-solid fa-mountain-sun"></i> Interessi personali</h2>
-- Escursionismo e alpinismo nelle Alpi Svizzere
-- Letteratura e filosofia classica latina
-- Restauro di orologi antichi
-- Linguistica e progettazione di linguaggi
+_Febbraio, 2013_\\
+**e il Certificate of Proficiency in English (C2)** dall'University of Cambridge.
+
+_Settembre, 2009 -- Giugno, 2010_\\
+**aver svalvolato assai, come ogni studente Erasmus a Bologna**... boh, che dire, ho anche girato gran parte del paese.
+
+_Settembre, 2006 -- Giugno, 2012_\\
+**essermi laureato in Scienze della comunicazione all'Università di Valencia**, e sì, non c'entra molto con un curriculum IT, ma è originale come contrasto, no? In effetti, ne sono piuttosto orgoglioso e non lo cambierei assolutamente. Mi ha dato un certo livello di scrittura creativa per... beh, per scrivere questa cosa, spero sia sufficiente.
+
+<h2 class="section"><i class="fa-solid fa-star-of-life"></i> Ho anche</h2>
+_Giugno, 2021 -- Gennaio, 2023_\\
+**aperto e chiuso la mia azienda, che si chiamava Cloudfights**, per fare dei progetti complementari ed esplorare un po' il lato aziendale della vita con alcuni colleghi. È sempre bene dare una chance al magnate che hai dentro, ma alla fine potresti preferire programmare invece di... fare burocrazia. Comunque lì c'è stato il mio primo tentativo di "fallisci di più, fallisci meglio" xD.
+
+_Maggio, 2018 -- Maggio, 2019_\\
+**lavorato per un anno come tecnico del commercio internazionale a Milano**, e se il giornalismo non vi incastrava, immagina questo... ma vabbè, è sempre bello provare delle cose nuove, no? Inoltre, ho degli ottimi riferimenti.
+
+
+<h2 class="section"><i class="fa-solid fa-signs-post"></i> Fuori dallo schermo mi trovate</h2>
+
+- a imparare qualche nuova lingua
+- immaginando viaggi in gruppo senza gruppo per viaggiare
+- cercando di suonare la chitarra senza successo
+- ad essere il peggior giocatore di FIFA che tu possa incontrare
+- a leggere, leggere, leggere
+- probabilmente con i miei amici <del>a far festa</del> in terrazza

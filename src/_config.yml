@@ -13,21 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Helvetic Resume
-description: A bold typographic theme inspired by Swiss design.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_repo: helvetic-resume # the GitHub repo name for your project
-github_username: hipervincle
-user_name: Hipervincle
-user_email: user@hipervincle.com
+url: https://jaumebarber.com # the base hostname & protocol for your site, e.g. http://example.com
+github_repo: jaumebarber.github.io # the GitHub repo name for your project
+github_username: jaumebarber
+
 # Optional social links, you can choose from the following options:
-# linkedin, bluesky, x (twitter), instagram, medium, or dribbble. Just add
+# linkedin (default), bluesky, x (twitter), instagram, medium, or dribbble just add
 # the name of the media + _username e.g. medium_username and then add your user name
 # to make it appear on the page
-linkedin_username: hipervincle
-bluesky_username: hipervincle.bsky.social
-medium_username: hipervincle
+user_name: Jaume Barber
+user_email: jbarber@hipervincle.com
+linkedin_username: jaumebarber
+bluesky_username: jaumebarber.bsky.social
 
 include: ["_pages"]
 exclude: ["scripts"]
@@ -37,9 +35,9 @@ permalink: /:title/
 markdown: kramdown
 
 # Remote settings
-repository: broccolini/swiss
+repository: hipervincle/swiss
 livereload: true
-port: 4000
+port: 8080
 
 plugins:
   - jekyll-polyglot

@@ -1,46 +1,24 @@
-title: Helvetic Resume
-description: A bold typographic theme inspired by Swiss design.
+title: Hi, I'm Jaume Barber!
+description: DevOps Engineer and Software Developer
+greet: Hello
 previous: Previous
 next: Next
 print: Print
-job: Clockmaker, Pilot, Programmer
 contact: Contact
 links: Links
-watchmaking:
-  title: Watchmaking
-  skills:
-    - name: Haute Horlogerie
+stack:
+  title: The stack I use
+langs_graph:
+  title: And I speak
+  langs:
+    - name: English
       level: 12
-    - name: Complication Design
-      level: 11
-    - name: Precision Timing
+    - name: Italian
       level: 12
-    - name: Micro-mechanics
-      level: 10
-    - name: Restoration
-      level: 9
-flying:
-  title: Aeronautical
-  skills:
-    - name: Helicopter Pilot (VFR)
-      level: 11
-    - name: Flight Planning
-      level: 10
-    - name: Emergency Procedures
-      level: 12
-    - name: Mountain Flying
-      level: 9
-programming:
-  title: Linguistics
-  skills:
-    - name: Language Design
-      level: 12
-    - name: Compiler Development (PoC)
-      level: 8
-    - name: Syntax & Semantics
-      level: 11
-    - name: Algorithmic Logic
-      level: 9
+    - name: French
+      level: 7
+    - name: German
+      level: 6
 footer:
-  attribution: Based on lovely <a href="https://github.com/broccolini" target="_blank">broccolini</a>'s <a href="https://github.com/broccolini/swiss" target="_blank">swiss theme</a>.
+  attribution: Based on <a href="https://github.com/hipervincle" target="_blank">Hipervincle</a>'s <a href="https://github.com/hipervincle/helvetic-resume" target="_blank">Helvetic Resume</a> theme.
   bluesky: Post on

@@ -9,9 +9,7 @@
     margin-right: 1.5cm;
   }
 
-  .job {
-    display: inline-block !important;
-  }
+
 
   .contact-data, .links {
     display: block !important;
@@ -23,7 +21,7 @@
   }
 
   .fa-solid, .print-only {
-    display: inline-block;
+    display: block;
   }
 
   .fa-solid {
@@ -64,6 +62,7 @@
   .print-button,
   .header-sticky,
   .language-menu,
+  .h0,
   #divider {
     display: none !important;
   }

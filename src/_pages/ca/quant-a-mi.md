@@ -1,60 +1,56 @@
 ---
+headline: us saluda!
 title: Quant a mi
-headline: Augusta Tempus
 lang: ca
 layout: about
-order: 1
-page_id: about-me
-permalink: quant-a-mi
+page_id: about
+permalink: quant-a
 ---
 
-<h2 class="section print-only"><i class="fa-solid fa-user"></i> Perfil professional</h2>
-Una mestra rellotgera amb una passió per la precisió en totes les seues formes, ja siga en la dansa intricada de la mecànica horològica, el ballet aeri del vol en helicòpter, o l'elegància lògica del disseny de llenguatges.
+<h2 class="section print-only"><i class="fa-solid fa-user"></i> Hola!</h2>
+Sóc un enginyer de software full stack i visc a València. Fa uns anys vaig decidir de fer un gir professional (i vital) i vaig aprendre a programar en React, però aviat vaig començar a anar més enllà. A dia d'avui m'ho passe en gran amb Python, Go, TypeScript... bàsicament el que siga. També conec de primera mà la gran <del>verbositat</del> resposta i utilitat de Java.
 
-Durant més de 25 anys, m'he dedicat a l'ofici de la rellotgeria, combinant tècniques tradicionals suïsses amb enginyeria innovadora i a mida. Les meues habilitats van més enllà del taller fins als cels, on passe un mes cada any pilotant helicòpters, i fins al món de la creació lingüística, on he desenvolupat _Lingua Tempus_, un llenguatge de programació únic arrelat en la gramàtica llatina.
+M'encanta la cultura DevOps, i gaudisc prou treballant amb contenidors, Terraform --bé, qualsevol IaC en realitat--. Però sobretot em flipa el món fascinant i totpoderós de la criptografia. Comptat i debatut, estime els ordinadors i alguna que altra vegada ells em corresponen.
 
-<h2 class="section"><i class="fa-solid fa-briefcase"></i> Experiència professional</h2>
-_Juliol, 1998 -- aquest mateix matí_\\
-**Rellotgera cap - Tempus Precision Watches (Autònom)**
 
-- Vaig establir un taller de rellotgeria a mida, especialitzat en rellotges mecànics fets a mà.
-- Vaig dissenyar i construir més de 50 rellotges únics i d'alta complicació per a col·leccionistes privats.
-- Vaig desenvolupar solucions innovadores per millorar la precisió i la durabilitat dels moviments mecànics.
-- Vaig oferir serveis experts de reparació i restauració de rellotges per a rellotges antics i moderns.
-- Vaig crear la identitat de la marca i les estratègies de màrqueting.
+<h2 class="section"><i class="fa-solid fa-briefcase"></i> Ara mateix treballe com a</h2>
+_Juliol, 2024 -- Avui al matí_\\
+**Enginyer DevOps a [Alten](https://alten.es)**, que consisteix a desenvolupar i mantenir una plataforma de llac de dades sobre AWS Glue, Lambdas, CloudFormation, i això i el de més enllà, la veritat és que és un gran castell ;). La meua feina allà implica desenvolupament full stack, sobretot en Python i Angular, suport al client i optimització del producte.
 
-_Estacional, 1 mes/any, 2005 -- fins ara_\\
-**Pilot d'helicòpter freelance - Alpine Air Adventures**
+<h2 class="section"><i class="fa-solid fa-backwards"></i> Abans era</h2>
+_Juny, 2021 -- Gener, 2023_\\
+**Lead de Sistemes a [Eventscase](https://eventscase.com)**, on vaig terraformar, o ansibilitzar tots els serveis d'AWS que féiem servir. Abans d'això vaig participar en la contenedorització del producte. I a muntar entorns de desenvolupament i de proves. I després està el manteniment diari i la gestió de la plataforma...
 
-- Realitze vols turístics per a turistes als Alps Suïssos.
-- Realitze missions especialitzades de fotografia aèria i observació.
-- Mantinc els més alts estàndards de seguretat i protocol operatiu.
-- Proveïment d'instrucció de vol i mentoria per a pilots joves.
+_Juliol, 2019 -- Maig, 2021_\\
+**Desenvolupador de software a [GFT](https://gft.com)**, com a junior, però me les vaig a apanyar força bé amb Angular, després React, després poc a poc vaig començar a tirar cap a coses d'operacions (ops): gestió de pipelines, contenidors, scripting, gestió de microserveis Java en desplegats en OpenShift, etc. Temps bons, em van ascendir.
 
-_Projecte personal, 2010 -- avui i comptant_\\
-**Creadora de _Lingua Tempus_**
+<h2 class="section"><i class="fa-solid fa-graduation-cap"></i> La meua educació inclou</h2>
+_Novembre, 2018 -- Juny, 2019_\\
+**haver fet el Run 18 a [Devscola](https://devscola.org)**, un bootcamp full stack de sis mesos dissenyat col·lectivament per una comunitat de desenvolupadors en actiu, especialment enfocat en bones pràctiques. Vam aprendre TDD, XP, pricipis SOLID, i els principis agile, tant teòricament com pràctica. Vam gaudir com a xiquets desenvolupant el projecte [Rekaizen](https://devscola.gitlab.io/rekaizen/app).
 
-- Vaig desenvolupar un llenguatge de programació funcional basat en el llatí.
-- Vaig dissenyar una sintaxi única i una estructura gramatical per a _Lingua Tempus_, combinant lògica antiga amb principis computacionals moderns.
-- Vaig desenvolupar un intèrpret bàsic capaç d'analitzar i executar algorismes senzills en _Lingua Tempus_.
+_Octubre, 2014_\\
+**haver obtingut el Certificato di Lingua Italiana (C1)** de la Università di Perugia.
 
-<h2 class="section"><i class="fa-solid fa-graduation-cap"></i> Educació</h2>
-- **Escola Suïssa de Rellotgeria** - Certificat de Mestre Rellotger (1998)
-- **Acadèmia Suïssa d'Aviació** - Llicència de Pilot Comercial d'Helicòpter (2004)
-- **Autodidacta** - Disseny i implementació de *Lingua Tempus*.
+_Febrer, 2013_\\
+**i el Certificate of Proficiency in English (C2)** de la University of Cambridge.
 
-<h2 class="section"><i class="fa-solid fa-trophy"></i> Premis i reconeixements</h2>
-- **Premi "Roda d'Equilibri Daurada"** - Gremi de Rellotgers Suïssos, per "Innovació en el Disseny de Complicacions" (2012).
-- **Premi "Mestre del Cel"** - Alpine Air Adventures, per "Seguretat i Professionalitat Exemplars" (2018, 2022).
-- Invitació per parlar sobre *Lingua Tempus* en el *Congrés Internacional de Lingüística* a Berna (2020).
+_Setembre, 2009 -- Juny, 2010_\\
+**haver desfassat, com qualsevol altre estudiant d'Erasmus a Bolonya**, Itàlia, bé, ja sabeu, també vaig voltar prou per tot el país.
 
-<h2 class="section"><i class="fa-solid fa-flask"></i> Projectes</h2>
-- **L'Astrolabi Tourbillon:** Un rellotge dissenyat per mi mateixa, amb alta complicació, que mostra les fases lunars, els moviments celestials i les zones horàries.
-- **El Linx Alpí:** Un disseny personalitzat d'helicòpter per a un rendiment màxim i eficiència als Alps Suïssos.
-- **Lingua Tempus:** Un llenguatge de programació basat en el llatí, amb un enfocament en la claredat, la precisió i el flux lògic. El codi sembla poesia.
+_Setembre, 2006 -- Juny, 2012_\\
+**haver estudiat Periodisme a la Universitat de València**, cosa que no s'adiu gaire amb un currículum IT, però almenys és original com a contrast, no? De fet, n'estic prou orgullós i no ho canviaria en absolut. M'ha permés un cert nivell d'escriptura creativa per... bé, escriure açò, espere que siga prou.
 
-<h2 class="section"><i class="fa-solid fa-mountain-sun"></i> Interessos personals</h2>
-- Caminades i muntanyisme als Alps Suïssos
-- Literatura i filosofia clàssica llatina
-- Restauració de rellotges i rellotges antics
-- Lingüística i disseny de llenguatges
+<h2 class="section"><i class="fa-solid fa-star-of-life"></i> I també he</h2>
+_Juny, 2021 -- Gener, 2023_\\
+**obert i tancat la meua pròpia empresa, que es deia Cloudfights**, per fer projectes complementaris i per explorar una mica el costat corporatiu de la vida amb uns col·legues. Està bé donar una oportunitat al teu magnat interior, però al final és possible que preferisques programar en lloc de... fer burocràcia. Però bé, ací queda el meu primer intent de "fracassa més, fracassa millor" xD.
+
+_Maig, 2018 -- Maig, 2019_\\
+**treballat un any com a tècnic de comerç internacional a Milà**... si això del periodisme no pegava, figura't açò... però sempre està bé provar coses, no? A més, tinc excel·lents referències.
+
+<h2 class="section"><i class="fa-solid fa-signs-post"></i> Fora de pantalla em trobareu</h2>
+- aprenent un nou idioma
+- imaginant viatges en grup sense grup amb qui viatjar
+- intentant tocar la guitarra sense cap èxit
+- sent el pitjor jugador de FIFA que et pugues tirar a la cara
+- llegint, llegint, llegint
+- quasi segur que amb els amics <del>de festa</del> en una terrassa
