@@ -23,7 +23,8 @@
     }
   }
 
-  .fa-solid, .print-only {
+  .fa-solid,
+  .print-only {
     display: inline;
   }
 
@@ -34,7 +35,6 @@
   .graphs {
     margin: 0;
   }
-  
 
   .avatar {
     width: 60px;
@@ -47,7 +47,6 @@
     flex-direction: row;
     justify-content: flex-start;
   }
-  
 
   body {
     font-size: 10pt;

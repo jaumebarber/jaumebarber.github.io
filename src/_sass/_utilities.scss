@@ -472,7 +472,7 @@ $breakpoint-xs: 480px;
 .about {
   @media (min-width: #{$breakpoint-md}) {
     display: flex;
- }
+  }
 }
 
 // Link styles for social icons
@@ -623,7 +623,6 @@ footer {
 #resume-header {
   flex-direction: row-reverse;
   justify-content: flex-end;
-
 }
 @media screen and (max-width: #{$breakpoint-md}) {
   .avatar {
@@ -631,7 +630,8 @@ footer {
   }
 }
 
-.theme-toggle, .print-button {
+.theme-toggle,
+.print-button {
   cursor: pointer;
   user-select: none;
   border: none;
