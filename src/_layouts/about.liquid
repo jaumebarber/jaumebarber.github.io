@@ -2,13 +2,14 @@
 layout: default
 ---
 {% assign lang = site.active_lang %}
-<article class="container mx-auto px-2 mt2 mb4">
-  <header>
-    <h1 class="h0 py-4 mt-3">{{ page.headline }}</h1>
-    <h1 class="print-only">{{ site.user_name }}</h1>
-    <p class="print-only">
-      {% if site.data[lang].job %}{{ site.data[lang].job }}{% else %}{{ site.data[lang].description }}{% endif %}
-    </p>
+<article class="container mx-auto px-2">
+  <header class="flex" id="resume-header">
+    <img src="{{ site.url }}/{{ site.data.common.avatar }}" alt="Picture of {{ site.user_name }}" class="avatar mt-3 ml-2 print-only" height="300" width="300">
+    <div class="flex column mt-2">
+      <h1 class="h0 py-4 mt-3">{{ page.headline }}</h1>
+      <h1 class="print-only py-4 mt-3">{{ site.user_name }}</h1>
+      <p class="job print-only"> {% if site.data[lang].job %}{{ site.data[lang].job }}{% else %}{{ site.data[lang].description }}{% endif %}</p>
+    </div>
   </header>
   {% include print-button.liquid %}
   <div class="col-4 sm-width-full border-top-thin" id="divider"></div>

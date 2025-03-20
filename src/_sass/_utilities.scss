@@ -25,6 +25,14 @@ $breakpoint-xs: 480px;
   text-align: right;
 }
 
+.center {
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
 .no-underline {
   text-decoration: none !important;
 
@@ -464,11 +472,7 @@ $breakpoint-xs: 480px;
 .about {
   @media (min-width: #{$breakpoint-md}) {
     display: flex;
-
-    .graphs {
-      margin-left: 2rem;
-    }
-  }
+ }
 }
 
 // Link styles for social icons
@@ -493,6 +497,10 @@ $breakpoint-xs: 480px;
     color: var(--link-hover);
     text-decoration: none !important;
   }
+}
+
+.graphs {
+  margin-left: 2rem;
 }
 
 .bluesky {
@@ -612,8 +620,18 @@ footer {
   margin-bottom: 0.5rem;
 }
 
-.theme-toggle,
-.print-button {
+#resume-header {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+
+}
+@media screen and (max-width: #{$breakpoint-md}) {
+  .avatar {
+    display: none;
+  }
+}
+
+.theme-toggle, .print-button {
   cursor: pointer;
   user-select: none;
   border: none;
