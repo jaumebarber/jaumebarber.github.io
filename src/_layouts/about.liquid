@@ -37,7 +37,9 @@ layout: default
       <div class="links">
         <h2>{{ site.data[lang].links }}</h2>
         <p>
-          <a href="{{ site.url }}">{{ site.url | remove: 'https://' }}</a>
+          <a href="{% if site.url contains 'localhost' %}https://jaumebarber.com{% else %}{{ site.url }}{% endif %}">
+          {% if site.url contains 'localhost' %}jaumebarber.com{% else %}{{ site.url | remove: 'https' }}{% endif %}
+        </a>
         </p>
         <p>
           <a href="https://linkedin.com/in/{{ site.linkedin_username }}">linkedin.com/in/{{ site.linkedin_username }}</a>

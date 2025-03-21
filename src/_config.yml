@@ -35,7 +35,7 @@ permalink: /:title/
 markdown: kramdown
 
 # Remote settings
-repository: hipervincle/swiss
+repository: hipervincle/helvetic-resume
 livereload: true
 port: 8080
 
