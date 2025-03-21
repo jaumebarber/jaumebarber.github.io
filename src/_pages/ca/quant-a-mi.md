@@ -48,8 +48,7 @@ _Maig, 2018 -- Maig, 2019_\\
 
 <h2 class="section"><i class="fa-solid fa-signs-post"></i> Fora de pantalla em trobareu</h2>
 - aprenent un nou idioma
-- imaginant viatges en grup sense grup amb qui viatjar
 - intentant tocar la guitarra sense cap èxit
 - sent el pitjor jugador de FIFA que et pugues tirar a la cara
 - llegint, llegint, llegint
-- quasi segur que amb els amics <del>de festa</del> en una terrassa
+- amb els amics <del>de festa</del> en una terrassa

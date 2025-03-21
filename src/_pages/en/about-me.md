@@ -46,9 +46,8 @@ _June, 2021 -- January, 2023_\\
 _May, 2018 -- May, 2019_\\
 **worked for a year as an International Trade consultant in Milan**, Italy. Yeah, not the kind of IT you were expecting, but I'm sure you didn't see that coming.
 
-<h2 class="section"><i class="fa-solid fa-signs-post"></i> Lastly, when offscreen I'm</h2>
+<h2 class="section"><i class="fa-solid fa-signs-post"></i> Lastly, off-screen I'm</h2>
 - an unguilty language lover and learner
-- a wannabe group traveller with no group to travel with
 - unsuccessfully trying to learn to play the guitar
 - a decade-old terrible FIFA game player
 - reading, reading, reading

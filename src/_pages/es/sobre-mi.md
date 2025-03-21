@@ -48,8 +48,7 @@ _Mayo, 2018 -- Mayo, 2019_\\
 
 <h2 class="section"><i class="fa-solid fa-signs-post"></i> Fuera de pantalla me encontraréis</h2>
 - aprendiendo algún idioma nuevo
-- ideando viajes en grupo sin grupo con el que viajar
 - intentando tocar la guitarra sin éxito
 - siendo el peor jugador de FIFA que te puedas echar a la cara
 - leyendo, leyendo, leyendo
-- muy probabablemente con mis amigos <del>de fiesta</del> en una terraza
+- con mis amigos <del>de fiesta</del> en una terraza

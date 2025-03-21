@@ -49,8 +49,7 @@ _Maggio, 2018 -- Maggio, 2019_\\
 <h2 class="section"><i class="fa-solid fa-signs-post"></i> Fuori dallo schermo mi trovate</h2>
 
 - a imparare qualche nuova lingua
-- immaginando viaggi in gruppo senza gruppo per viaggiare
 - cercando di suonare la chitarra senza successo
 - ad essere il peggior giocatore di FIFA che tu possa incontrare
 - a leggere, leggere, leggere
-- probabilmente con i miei amici <del>a far festa</del> in terrazza
+- con i miei <del>a far festa</del> in terrazza

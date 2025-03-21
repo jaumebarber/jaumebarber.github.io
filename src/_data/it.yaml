@@ -20,5 +20,5 @@ langs_graph:
     - name: Tedesco
       level: 6
 footer:
-  attribution: Sviluppato sul tema <a href="https://github.com/hipervincle/helvetic-resume" target="_blank">Helvetic Resume</a> di <a href="https://github.com/hipervincle" target="_blank">Hipervincle</a>.
+  attribution: Basato sul tema <a href="https://github.com/hipervincle/helvetic-resume" target="_blank">Helvetic Resume</a> di <a href="https://github.com/hipervincle" target="_blank">Hipervincle</a>.
   bluesky: Pubblica su
