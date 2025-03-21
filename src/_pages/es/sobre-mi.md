@@ -16,7 +16,7 @@ Me encanta la cultura DevOps y me lo paso en grande trabajando con contenedores,
 _Julio, 2024 -- Esta misma mañana_\\
 **Ingeniero DevOps en [Alten](https://alten.es)**, que consiste en desarrollar y mantener una plataforma de lago de datos sobre AWS Glue, Lambdas, CloudFormation, y tal y tal, la verdad es que es un gran castillo ;). Mi trabajo aquí implica desarrollo full stack, sobre todo en Python y Angular, soporte al cliente y optimización del producto.
 
-<h2 class="section"><i class="fa-solid fa-backward"></i> Abans era</h2>
+<h2 class="section"><i class="fa-solid fa-backward"></i> Antes era</h2>
 _Junio, 2021 -- Enero, 2023_\\
 **Lead de Sistemas en [Eventscase](https://eventscase.com)**, donde terraformé, o ansibilicé todos los servicios de AWS que utilizábamos. Antes de esto participé en la contenedorización de la plataforma. Y a montar entornos de desarrollo y de pruebas. Y luego está el mantenimiento diario, la gestión de la plataforma...
 
