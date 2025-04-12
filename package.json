@@ -1,6 +1,19 @@
 {
-  "devDependencies": {
-    "@shopify/prettier-plugin-liquid": "^1.8.2",
-    "prettier": "^3.5.2"
-  }
+  "name": "jaumebarber.github.io",
+  "version": "1.0.0",
+  "description": "[![Gem Version](https://badge.fury.io/rb/helvetic-resume.svg)](https://badge.fury.io/rb/helvetic-resume) [![Check Links](https://github.com/jaumebarber/jaumebarber.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/jaumebarber/jaumebarber.github.io/actions/workflows/deploy.yml) [![Check Accessibility](https://github.com/jaumebarber/jaumebarber.github.io/actions/workflows/axe.yml/badge.svg)](https://github.com/jaumebarber/jaumebarber.github.io/actions/workflows/axe.yml)",
+  "main": "index.html",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaumebarber/jaumebarber.github.io.git"
+  },
+  "author": "Hipervincle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaumebarber/jaumebarber.github.io/issues"
+  },
+  "homepage": "https://github.com/jaumebarber/jaumebarber.github.io#readme"
 }
