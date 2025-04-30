@@ -5,7 +5,7 @@ layout: default
 <article class="container mx-auto px-2">
   <header class="flex" id="resume-header">
     <img
-      src="{{ site.url }}/{{ site.data.common.avatar }}"
+      src="{{ site.url }}/{{ site.avatar }}"
       alt="Picture of {{ site.user_name }}"
       class="avatar mt-3 ml-2 print-only"
       height="300"
@@ -28,8 +28,8 @@ layout: default
     <div class="right-column">
       <div class="contact-data">
         <h2>{{ site.data[lang].contact }}</h2>
-        <p><i class="fa-solid fa-phone"></i> {{ site.data.common.phone }}</p>
-        <p><i class="fa-solid fa-location-dot"></i> {{ site.data.common.address }}</p>
+        <p><i class="fa-solid fa-phone"></i> {{ site.phone }}</p>
+        <p><i class="fa-solid fa-location-dot"></i> {{ site.address }}</p>
         <p>
           <i class="fa-solid fa-at"></i> <a href="mailto:{{ site.user_email }}">{{ site.user_email }}</a>
         </p>

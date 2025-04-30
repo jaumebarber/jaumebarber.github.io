@@ -25,4 +25,5 @@
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <script src="{{ site.baseurl }}/assets/js/theme-toggle.js"></script>
   <script src="{{ site.baseurl }}/assets/js/print-button.js"></script>
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}{%- include google-analytics.liquid -%}{%- endif -%}
 </head>

@@ -17,7 +17,8 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive &&     \
     inotify-tools                                                  \
     procps                                                         \
     zlib1g-dev                                                     \
-    libffi-dev
+    libffi-dev                                                     \
+    git-crypt
 
 RUN gem update --system
 # https://github.com/ntkme/sass-embedded-host-ruby/issues/130

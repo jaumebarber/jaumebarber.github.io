@@ -1,7 +1,4 @@
 # use this file to store info that does not require localization
-phone: +34 699 981 561
-address: València
-avatar: assets/images/avatar.png
 stack:
   items:
     - name: Docker

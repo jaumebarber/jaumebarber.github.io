@@ -1,5 +1,5 @@
 {
-  "plugins": ["/usr/local/share/nvm/versions/node/v22.14.0/lib/node_modules/@shopify/prettier-plugin-liquid/dist/index.js"],
+  "plugins": ["/usr/local/share/nvm/versions/node/v22.15.0/lib/node_modules/@shopify/prettier-plugin-liquid/dist/index.js"],
   "printWidth": 150,
   "trailingComma": "es5"
 }
